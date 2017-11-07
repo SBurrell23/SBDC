@@ -3,6 +3,8 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<link rel="shortcut icon" href="assets/sb.ico" type="image/x-icon">
+	<link rel="icon" href="assets/sb.ico" type="image/x-icon">
 	<title>Steven Burrell</title>
 
 	<!-- CSS -->
@@ -22,7 +24,10 @@
 				</ul>
 
 				<ul id="nav-mobile" class="side-nav">
-					<li><a href="#">Home</a></li>
+					<li><a href="#">Web Projects</a></li>
+					<li><a href="#">Java Games</a></li>
+					<li><a href="#">Movie Blog</a></li>
+					<li><a href="#">More Stuff</a></li>
 				</ul>
 				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 			</div>
@@ -112,7 +117,7 @@
 		</div>
 		<div class="footer-copyright">
 			<div class="container">
-				Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+				Made with love in <a class="orange-text text-lighten-3" target="_blank" href="https://goo.gl/ynzCmB">Colorful Colorado!</a>
 			</div>
 		</div>
 	</footer>

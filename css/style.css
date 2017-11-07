@@ -1,4 +1,10 @@
+html{
+	font-weight: 300;
+}
 .nav-wrapper ul li{
-	min-width:135px;
+	min-width:130px;
 	text-align: center;
+}
+#sidenav-overlay {
+	z-index: 1;
 }
