@@ -9,119 +9,69 @@
 
 	<!-- CSS -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/materialize.min.css" type="text/css" rel="stylesheet"/>
+	<link href="css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 	<div class="navbar-fixed">
 		<nav class="blue-grey darken-1" role="navigation">
-			<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Steven Burrell</a>
+			<div class="nav-wrapper container"><a id="logo-container" href="?v=about" class="brand-logo">Steven Burrell</a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="#">Web Projects</a></li>
-					<li><a href="#">Java Games</a></li>
-					<li><a href="#">Movie Blog</a></li>
+					<li><a href="?v=web_projects">Web Projects</a></li>
+					<li><a href="?v=java_games">Java Games</a></li>
+					<li><a href="?v=movie_blog">Movie Blog</a></li>
 					<li><a href="#">More Stuff</a></li>
 				</ul>
 
 				<ul id="nav-mobile" class="side-nav">
-					<li><a href="#">Web Projects</a></li>
-					<li><a href="#">Java Games</a></li>
-					<li><a href="#">Movie Blog</a></li>
+					<li><a href="?v=web_projects">Web Projects</a></li>
+					<li><a href="?v=java_games">Java Games</a></li>
+					<li><a href="?v=movie_blog">Movie Blog</a></li>
 					<li><a href="#">More Stuff</a></li>
 				</ul>
 				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 			</div>
 		</nav>
 	</div>
-	<div class="section no-pad-bot" id="index-banner">
-		<div class="container">
-			<br><br>
-			<h1 class="header center orange-text">Starter Template</h1>
-			<div class="row center">
-				<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-			</div>
-			<div class="row center">
-				<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-			</div>
-			<br><br>
-
-		</div>
+	<div class="content">
+		<?php
+			if(isset($_GET['v']))
+				switch ($_GET['v'])
+				{
+					case 'about':			include 'pages/about.php';			break;
+					case 'web_projects':	include 'pages/web_projects.php';	break;
+					case 'java_games':		include 'pages/java_games.php';		break;
+					case 'movie_blog':		include 'pages/movie_blog.php';		break;
+					default:				include 'pages/about.php';			break;
+				}
+			else
+				include 'pages/about.php';
+		?>
 	</div>
-
-
-	<div class="container">
-		<div class="section">
-
-			<!--   Icon Section   -->
-			<div class="row">
-				<div class="col s12 m4">
-					<div class="icon-block">
-						<h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-						<h5 class="center">Speeds up development</h5>
-
-						<p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-					</div>
-				</div>
-
-				<div class="col s12 m4">
-					<div class="icon-block">
-						<h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-						<h5 class="center">User Experience Focused</h5>
-
-						<p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-					</div>
-				</div>
-
-				<div class="col s12 m4">
-					<div class="icon-block">
-						<h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-						<h5 class="center">Easy to work with</h5>
-
-						<p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-					</div>
-				</div>
-			</div>
-
-		</div>
-		<br><br>
-	</div>
-
-	<footer class="page-footer orange">
+	<footer class="page-footer blue-grey darken-1">
 		<div class="container">
 			<div class="row">
-				<div class="col l6 s12">
-					<h5 class="white-text">Company Bio</h5>
-					<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+				<div class="col l9 s12">
+					<h5 class="orange-text text-darken-3">Where Am I?</h5>
+					<p class="grey-text text-lighten-4">Welcome to my website! This site exists primarily for a place to save my software development projects. Feel free to poke around and try out some of the games or tools you find. If you need to contact me, do so with the information to the right &nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
 				</div>
 				<div class="col l3 s12">
-					<h5 class="white-text">Settings</h5>
+					<h5 class="orange-text text-darken-3">Contact Me</h5>
 					<ul>
-						<li><a class="white-text" href="#!">Link 1</a></li>
-						<li><a class="white-text" href="#!">Link 2</a></li>
-						<li><a class="white-text" href="#!">Link 3</a></li>
-						<li><a class="white-text" href="#!">Link 4</a></li>
-					</ul>
-				</div>
-				<div class="col l3 s12">
-					<h5 class="white-text">Connect</h5>
-					<ul>
-						<li><a class="white-text" href="#!">Link 1</a></li>
-						<li><a class="white-text" href="#!">Link 2</a></li>
-						<li><a class="white-text" href="#!">Link 3</a></li>
-						<li><a class="white-text" href="#!">Link 4</a></li>
+						<li><a class="white-text" target="_blank" href="https://github.com/SBurrell23"><i class="fa fa-github"                  style='margin-right:12px;'></i>Github</a></li>
+						<li><a class="white-text" target="_blank" href="https://linkedin.com/in/stevengeorgeburrell/"><i class="fa fa-linkedin" style='margin-right:13px;'></i>Linked In</a></li>
+						<li><a class="white-text" target="_blank" href="https://www.facebook.com/steven.burrell.98"><i class="fa fa-facebook"   style='margin-right:17px;'></i>Facebook</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="footer-copyright">
 			<div class="container">
-				Made with love in <a class="orange-text text-lighten-3" target="_blank" href="https://goo.gl/ynzCmB">Colorful Colorado!</a>
+				Made with love in <a class="orange-text text-darken-3" target="_blank" href="https://goo.gl/ynzCmB">Colorful Colorado!</a>
 			</div>
 		</div>
 	</footer>
-
 
 	<!--JS -->
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
