@@ -21,14 +21,12 @@
 					<li><a href="?v=web_projects">Web Projects</a></li>
 					<li><a href="?v=java_games">Java Games</a></li>
 					<li><a href="?v=movie_blog">Movie Blog</a></li>
-					<li><a href="#">More Stuff</a></li>
 				</ul>
 
 				<ul id="nav-mobile" class="side-nav">
 					<li><a href="?v=web_projects">Web Projects</a></li>
 					<li><a href="?v=java_games">Java Games</a></li>
 					<li><a href="?v=movie_blog">Movie Blog</a></li>
-					<li><a href="#">More Stuff</a></li>
 				</ul>
 				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 			</div>
@@ -39,14 +37,14 @@
 			if(isset($_GET['v']))
 				switch ($_GET['v'])
 				{
-					case 'about':			include 'pages/about.php';						break;
-					case 'web_projects':	include 'pages/web_projects.php';				break;
-					case 'java_games':		include 'pages/java_games/java_games.php';		break;
+					case 'about':			include 'pages/about_me/index.php';				break;
+					case 'web_projects':	include 'pages/web_projects/index.php';			break;
+					case 'java_games':		include 'pages/java_games/index.php';			break;
 					case 'movie_blog':		include 'pages/movie_blog/index.php';			break;
-					default:				include 'pages/about.php';						break;
+					default:				include 'pages/about_me/index.php';				break;
 				}
 			else
-				include 'pages/about.php';
+				include 'pages/about_me/index.php';
 		?>
 	</div>
 	<footer class="page-footer blue-grey darken-1">
