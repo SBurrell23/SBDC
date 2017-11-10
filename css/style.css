@@ -4,9 +4,25 @@ html{
 h4 , h5{
 	font-weight: 300;
 }
+.sbLogo{
+    width: 72px;
+    height: 60px;
+    margin-top: -8px;
+    margin-left: -17px;
+}
+#logo-container{
+	height: 64px;
+}
 .nav-wrapper ul li{
 	min-width:130px;
 	text-align: center;
+}
+#nav-mobile{
+	background-color: #546e7a;
+}
+#nav-mobile li a{
+	color: #FFFFFF;
+	font-weight:300;
 }
 #sidenav-overlay {
 	z-index: 1;
@@ -20,7 +36,7 @@ h4 , h5{
 .card-text{
 	font-size:18px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
     .page-footer {
         display: none;
     }
@@ -37,7 +53,6 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 .dropdown-content li>a, .dropdown-content li>span{
 	color:#546e7a;
 }
-
 .collection a.collection-item{
 	color:#546e7a;
 }
@@ -45,3 +60,19 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 	font-size: 25px;
 	color: #ef6c00;
 }
+.siteOrangeText{
+	color: #ef6c00;
+}
+.btn, .btn-large{
+	background-color: #ef6c00;
+}
+.btn:hover, .btn-large:hover{
+	background-color: #ff9800 ; 
+}
+.btn:focus, .btn-large:focus{
+	background-color: #ef6c00;
+}
+td, th {
+	border-radius: 0px;
+}
+

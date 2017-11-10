@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 	<link rel="shortcut icon" href="assets/sb.ico" type="image/x-icon">
-	<link rel="icon" href="assets/sb.ico" type="image/x-icon">
+	<link rel="icon" href="assets/sb_favi.ico" type="image/x-icon">
 	<title>Steven Burrell</title>
 
 	<!-- CSS -->
@@ -20,7 +20,10 @@
 <body>
 	<div class="navbar-fixed">
 		<nav class="blue-grey darken-1" role="navigation">
-			<div class="nav-wrapper container"><a id="logo-container" href="?v=about" class="brand-logo">Steven Burrell</a>
+			<div class="nav-wrapper container">
+				<a id="logo-container" href="?v=about" class="brand-logo">
+					<img src="./assets/sb_logo_solo.png" class="sbLogo"> 
+				</a>
 				<ul class="right hide-on-med-and-down">
 					<li><a href="?v=web_projects">Web Projects</a></li>
 					<li><a href="?v=java_games">Java Games</a></li>
@@ -63,7 +66,7 @@
 					<h5 class="orange-text text-darken-3">Contact Me</h5>
 					<ul>
 						<li><a class="white-text" target="_blank" href="https://github.com/SBurrell23"><i class="fa fa-github"                  style='margin-right:12px;'></i>Github</a></li>
-						<li><a class="white-text" target="_blank" href="https://linkedin.com/in/stevengeorgeburrell/"><i class="fa fa-linkedin" style='margin-right:13px;'></i>Linked In</a></li>
+						<li><a class="white-text" target="_blank" href="https://linkedin.com/in/stevengeorgeburrell/"><i class="fa fa-linkedin" style='margin-right:13px;'></i>LinkedIn</a></li>
 						<li><a class="white-text" target="_blank" href="https://www.facebook.com/steven.burrell.98"><i class="fa fa-facebook"   style='margin-right:17px;'></i>Facebook</a></li>
 					</ul>
 				</div>
