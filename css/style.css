@@ -41,3 +41,7 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 .collection a.collection-item{
 	color:#546e7a;
 }
+.headerIcon{
+	font-size: 25px;
+	color: #ef6c00;
+}

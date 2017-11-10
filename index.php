@@ -12,6 +12,10 @@
 	<link href="css/materialize.min.css" type="text/css" rel="stylesheet"/>
 	<link href="css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
 	<link href="css/style.css" type="text/css" rel="stylesheet"/>
+
+	<!-- Pre JS -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
 </head>
 <body>
 	<div class="navbar-fixed">
@@ -37,11 +41,12 @@
 			if(isset($_GET['v']))
 				switch ($_GET['v'])
 				{
-					case 'about':			include 'pages/about_me/index.php';				break;
-					case 'web_projects':	include 'pages/web_projects/index.php';			break;
-					case 'java_games':		include 'pages/java_games/index.php';			break;
-					case 'movie_blog':		include 'pages/movie_blog/index.php';			break;
-					default:				include 'pages/about_me/index.php';				break;
+					case 'about':			include 'pages/about_me/index.php';						break;
+					case 'web_projects':	include 'pages/web_projects/index.php';					break;
+					case 'java_games':		include 'pages/java_games/index.php';					break;
+					case 'movie_blog':		include 'pages/movie_blog/index.php';					break;
+
+					case 'synonify':		include 'pages/web_projects/synonify/index.php';		break;
 				}
 			else
 				include 'pages/about_me/index.php';
@@ -71,8 +76,7 @@
 		</div>
 	</footer>
 
-	<!--JS -->
-	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!-- Post JS -->
 	<script src="js/materialize.min.js"></script>
 	<script src="js/init.js"></script>
 
