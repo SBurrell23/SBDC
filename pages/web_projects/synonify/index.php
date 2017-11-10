@@ -33,5 +33,9 @@ $(function(){
 	        }
     	});
 	});
+	$('#synonifyInput').keypress(function(e) {
+	    if(e.which == 13)
+	        $('#synonifyButton').click();
+	});
 });
 </script>

@@ -6,6 +6,9 @@
 		.movieBlogTable tbody tr td{padding:6px!important;}
 		.sortorder:after {content: '\25b2';}
 		.sortorder.reverse:after {content: '\25bc';}
+		a{color: #546e7a;}
+		td a{color:#039be5;}
+		.sortorder{color:#546e7a;}
 	</style>
 
 	<script type="text/javascript">
@@ -19,12 +22,10 @@
 				  params: { 'time': new Date().getTime() },
 				  url: './pages/movie_blog/movieData.json'
 				}).then(function successCallback(response) {
+					console.log(response);
 					$scope.resetCount = 0;
 					$scope.predicate = '';
 					$scope.data = response.data;
-					console.log(response);
-				}, function errorCallback(response) {
-					console.log(response.status);
 				});
 			}
 
@@ -38,15 +39,14 @@
 			var orderBy = $filter('orderBy');
 			$scope.resetCount = 0;
 			$scope.order = function(predicate) {
+				if($scope.resetCount == 2){
+					$scope.resetCount = 0;
+				}
 				if($scope.predicate === predicate)
 					$scope.resetCount++;
 				else
 					$scope.resetCount = 0;
-				if($scope.resetCount == 2){
-					$scope.getData();
-					//location.reload();
-					return;
-				}
+			
 			    $scope.predicate = predicate;
 			    $scope.reverse = ($scope.predicate === predicate) ? !$scope.reverse : false;
 			    $scope.data = orderBy($scope.data, predicate, $scope.reverse);

@@ -22,7 +22,7 @@
 		<nav class="blue-grey darken-1" role="navigation">
 			<div class="nav-wrapper container">
 				<a id="logo-container" href="?v=about" class="brand-logo">
-					<img src="./assets/sb_logo_solo.png" class="sbLogo"> 
+					<img src="./assets/sb_logo_white.png" class="sbLogo"><!-- <span class="siteOrangeText" style="font-weight: 400">S</span>teven <span class="siteOrangeText"></span>Burrell -->
 				</a>
 				<ul class="right hide-on-med-and-down">
 					<li><a href="?v=web_projects">Web Projects</a></li>
