@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html style='background-color:rgb(217, 229, 255);'>
+  <head>
+    <meta charset="UTF-8">
+    <title>Jeopardy Admin</title>
+    <style type="text/css">
+      #buzzerDiv {
+      	width:600px;
+        padding:10px;
+        border: 1px solid #ccc;
+        background-color: #f3f3f3;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    
+	<div id="buzzerDiv">
+		<h2 style="padding-left:23px;">Buzzed In Players</h2>
+		<hr>
+
+		<ol></ol> <br>
+
+		<div style="padding-left:25px;padding-bottom:15px;"><button id="reset" style="padding:0px 20px 0px 20px;"><h3>Reset Buzzers</h3></button></div>
+	</div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      function autorun()
+      {
+
+      	getButtons();
+
+        $("#reset").click(function(){
+            $.get("server.php?resetButtons=true",
+            function(data, status){
+            	getButtons();
+                console.log(data);
+            });
+        });
+
+        window.setInterval(function()
+        {
+        	getButtons();
+        }, 1000);
+
+        function getButtons()
+        {
+            $.get("server.php?getButtons=true",
+            function(data, status){
+                $("ol").empty();
+                var buttonsPressed = JSON.parse(data);
+                for (var i = 0; i < buttonsPressed.length; ++i){
+   					$("ol").append($("<li>").html("<h3>" + buttonsPressed[i].ip + " - " + buttonsPressed[i].name + "</h3>"));
+				}
+            });
+        }
+
+      }
+      if (document.addEventListener) document.addEventListener("DOMContentLoaded", autorun, false);
+      else if (document.attachEvent) document.attachEvent("onreadystatechange", autorun);
+      else window.onload = autorun;
+    </script>
+  </body>
+</html>

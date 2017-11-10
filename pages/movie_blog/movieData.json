@@ -1,0 +1,414 @@
+[
+	{
+	"title":"Apocalypto" ,
+	"chooser":"Steven" , 
+	"mike":6 , 
+	"steven":9.5 , 
+	"difference":3.5 , 
+	"mean":7.75 , 
+	"year":2006 ,
+	"link":"http://www.imdb.com/title/tt0472043/"
+	},
+	{
+	"title":"Kingdom of Heaven" ,
+	"chooser":"Mike" ,
+	"mike":8.7 ,
+	"steven":6.2 ,
+	"difference":2.5 , 
+	"mean":7.45 ,
+	"year":2005 ,
+	"link":"http://www.imdb.com/title/tt0320661/"
+	},
+	{
+	"title":"What We 
+	Do In The Shadows" ,
+	"chooser":"Steven" ,
+	"mike":8 ,
+	"steven":8.7 ,
+	"difference":0.7 , 
+	"mean":8.35 ,
+	"year":2014 ,
+	"link":"http://www.imdb.com/title/tt3416742/"
+	},
+	{
+	"title":"Enemy at the Gates" ,
+	"chooser":"Mike" ,
+	"mike":7.9 ,
+	"steven":7.4 ,
+	"difference":0.5 , 
+	"mean":7.65 ,
+	"year":2001 ,
+	"link":"http://www.imdb.com/title/tt0215750/"
+	},
+	{
+	"title":"Interstellar" ,
+	"chooser":"Both" ,
+	"mike":8.9 ,
+	"steven":8.9 ,
+	"difference":0 , 
+	"mean":8.9 ,
+	"year":2014 ,
+	"link":"http://www.imdb.com/title/tt0816692/"
+	},
+	{
+	"title":"Mad Max: Fury Road" ,
+	"chooser":"Both" ,
+	"mike":7 ,
+	"steven":7.5 ,
+	"difference":0.5 , 
+	"mean":7.25 ,
+	"year":2015 ,
+	"link":"http://www.imdb.com/title/tt1392190/"
+	},
+	{
+	"title":"Inception" ,
+	"chooser":"Both" ,
+	"mike":8.9 ,
+	"steven":8.9 ,
+	"difference":0 , 
+	"mean":8.9 ,
+	"year":2010 ,
+	"link":"http://www.imdb.com/title/tt1375666/"
+	},
+	{
+	"title":"Chappie" ,
+	"chooser":"Mike" ,
+	"mike":8.6 ,
+	"steven":8.1 ,
+	"difference":0.5 , 
+	"mean":8.35 ,
+	"year":2015 ,
+	"link":"http://www.imdb.com/title/tt1823672/"
+	},
+	{
+	"title":"The Dead Lands" ,
+	"chooser":"Steven" ,
+	"mike":7.8 ,
+	"steven":8.3 ,
+	"difference":0.5 , 
+	"mean":8.05 ,
+	"year":2014 ,
+	"link":"http://www.imdb.com/title/tt3399916/"
+	},
+	{
+	"title":"The Last Samurai" ,
+	"chooser":"Mike" ,
+	"mike":8.4 ,
+	"steven":6.7 ,
+	"difference":1.7 , 
+	"mean":7.55 ,
+	"year":2003 ,
+	"link":"http://www.imdb.com/title/tt0325710/"
+	},
+	{
+	"title":"Lord of War" ,
+	"chooser":"Steven" ,
+	"mike":8.8 ,
+	"steven":9.0 ,
+	"difference":0.2 ,
+	"mean":8.9 ,
+	"year":2005 ,
+	"link":"http://www.imdb.com/title/tt0399295/"
+	},
+	{
+	"title":"The Martian" ,
+	"chooser":"Both" ,
+	"mike":9.2 ,
+	"steven":8.6 ,
+	"difference":0.8 ,
+	"mean":8.9 ,
+	"year":2015 ,
+	"link":"http://www.imdb.com/title/tt3659388/"
+	},
+	{
+	"title":"Kung Fu Killer" ,
+	"chooser":"Steven" ,
+	"mike":7.8 ,
+	"steven":6.2 ,
+	"difference":1.6 ,
+	"mean":7 ,
+	"year":2014 ,
+	"link":"http://www.imdb.com/title/tt2952602/"
+	},
+	{
+	"title":"Warhorse" ,
+	"chooser":"Mike" ,
+	"mike":7.5 ,
+	"steven":8.2,
+	"difference":0.7 ,
+	"mean":7.85 ,
+	"year":2011 ,
+	"link":"http://www.imdb.com/title/tt1568911/"
+	},
+	{
+	"title":"Beasts of No Nation" ,
+	"chooser":"Steven" ,
+	"mike":6.7 ,
+	"steven":6.2 ,
+	"difference":0.5 ,
+	"mean":6.45 ,
+	"year":2015 ,
+	"link":"http://www.imdb.com/title/tt1365050/"
+	},
+	{
+	"title":"Spectre" ,
+	"chooser":"Both" ,
+	"mike":6.0 ,
+	"steven":7.1 ,
+	"difference":1.1 ,
+	"mean":6.55 ,
+	"year":2015 ,
+	"link":"http://www.imdb.com/title/tt2379713/"
+	},
+	{
+	"title":"Romeo Must Die" ,
+	"chooser":"Mike" ,
+	"mike":6.5 ,
+	"steven":2.3 ,
+	"difference":4.2 ,
+	"mean":4.4 ,
+	"year":2000 ,
+	"link":"http://www.imdb.com/title/tt0165929/"
+	},
+	{
+	"title":"Coherence" ,
+	"chooser":"Gary" ,
+	"mike":8.0 ,
+	"steven":8.5 ,
+	"difference":0.5 ,
+	"mean":8.25 ,
+	"year":2013 ,
+	"link":"http://www.imdb.com/title/tt2866360/"
+	},
+	{
+	"title":"Star Wars VII - The Force Awakens" ,
+	"chooser":"Both" ,
+	"mike":7.2 ,
+	"steven":8.8 ,
+	"difference":1.6 ,
+	"mean":8 ,
+	"year":2015 ,
+	"link":"http://www.imdb.com/title/tt2488496/"
+	},
+	{
+	"title":"Cloud Atlas" ,
+	"chooser":"Steven" ,
+	"mike":9.0 ,
+	"steven":8.4 ,
+	"difference":0.6 ,
+	"mean":8.7 ,
+	"year":2012 ,
+	"link":"http://www.imdb.com/title/tt1371111/"
+	},
+	{
+	"title":"Star Wars: The Clone Wars (Animated)" ,
+	"chooser":"Mike" ,
+	"mike":5.0 ,
+	"steven":1.7 ,
+	"difference":3.3 ,
+	"mean": 3.35,
+	"year":2008 ,
+	"link":"http://www.imdb.com/title/tt1185834/"
+	},
+	{
+	"title":"The Revenant" ,
+	"chooser":"Both" ,
+	"mike":7 ,
+	"steven":8.3 ,
+	"difference":1.3,
+	"mean": 7.65,
+	"year":2015 ,
+	"link":"http://www.imdb.com/title/tt1663202/"
+	},
+	{
+	"title":"Jiro Dreams of Sushi" ,
+	"chooser":"Steven" ,
+	"mike":5 ,
+	"steven":9.3 ,
+	"difference":4.3,
+	"mean": 7.15,
+	"year":2011 ,
+	"link":"http://www.imdb.com/title/tt1772925/"
+	},
+	{
+	"title":"Empire Desert Ants" ,
+	"chooser":"Mike" ,
+	"mike": 7.3 ,
+	"steven": 8.7 ,
+	"difference": 1.4,
+	"mean": 8,
+	"year":2011 ,
+	"link":"http://www.imdb.com/title/tt2496528/"
+	},
+	{
+	"title":"The Good Dinosaur" ,
+	"chooser":"Steven" ,
+	"mike": 5 ,
+	"steven": 7.2 ,
+	"difference": 2.2 ,
+	"mean": 6.1 ,
+	"year":2015 ,
+	"link":"http://www.imdb.com/title/tt1979388/"
+	},
+	{
+	"title":"Life Is Beautiful" ,
+	"chooser":"Mike" ,
+	"mike": 7.8 ,
+	"steven": 6.3 ,
+	"difference": 1.5 ,
+	"mean": 7.05 ,
+	"year": 1997 ,
+	"link":"http://www.imdb.com/title/tt0118799/"
+	},
+	{
+	"title":"The Departed" ,
+	"chooser":"Gary" ,
+	"mike": 6 ,
+	"steven": 8 ,
+	"difference": 2 ,
+	"mean": 7 ,
+	"year": 2006 ,
+	"link":"http://www.imdb.com/title/tt0407887/"
+	},
+	{
+	"title":"Bowfinger" ,
+	"chooser":"Steven" ,
+	"mike": 7.2 ,
+	"steven": 7.6 ,
+	"difference": 0.4 ,
+	"mean": 7.4 ,
+	"year": 1999 ,
+	"link":"http://www.imdb.com/title/tt0131325/"
+	},
+	{
+	"title":"Penelope" ,
+	"chooser":"Mike" ,
+	"mike": 7.5 ,
+	"steven": 5.7 ,
+	"difference": 1.8 ,
+	"mean": 6.6 ,
+	"year": 2006 ,
+	"link":"http://www.imdb.com/title/tt0472160/"
+	},
+	{
+	"title":"The Last King of Scotland" ,
+	"chooser":"Steven" ,
+	"mike": 6 ,
+	"steven": 7.4 ,
+	"difference": 1.4 ,
+	"mean": 6.7 ,
+	"year": 2006 ,
+	"link":"http://www.imdb.com/title/tt0455590/"
+	},
+	{
+	"title":"The Nanny Diaries" ,
+	"chooser":"Mike" ,
+	"mike": 7 ,
+	"steven": 4 ,
+	"difference": 3 ,
+	"mean": 5.5 ,
+	"year": 2007 ,
+	"link":"http://www.imdb.com/title/tt0489237/"
+	},
+	{
+	"title":"The Illusionist" ,
+	"chooser":"Gary" ,
+	"mike": 7 ,
+	"steven": 8.7 ,
+	"difference": 1.7 ,
+	"mean": 7.85 ,
+	"year": 2006 ,
+	"link":"http://www.imdb.com/title/tt0443543/"
+	},
+	{
+	"title":"The Jungle Book" ,
+	"chooser":"Both" ,
+	"mike": 6 ,
+	"steven": 8 ,
+	"difference": 2 ,
+	"mean": 7,
+	"year": 2016 ,
+	"link":"http://www.imdb.com/title/tt3040964/"
+	},
+	{
+	"title":"The Pianist" ,
+	"chooser":"Steven" ,
+	"mike": 6.8 ,
+	"steven": 8.4 ,
+	"difference": 1.6 ,
+	"mean": 7.6 ,
+	"year": 2002 ,
+	"link":"http://www.imdb.com/title/tt0253474/"
+	},
+	{
+	"title":"Ong-Bak" ,
+	"chooser":"Mike" ,
+	"mike": 8.2 ,
+	"steven": 6.7 ,
+	"difference": 1.5 ,
+	"mean": 7.45 ,
+	"year": 2003 ,
+	"link":"http://www.imdb.com/title/tt0368909/"
+	},
+	{
+	"title":"Identity" ,
+	"chooser":"Gary" ,
+	"mike": 7.5 ,
+	"steven": 8.3 ,
+	"difference": 0.8 ,
+	"mean": 7.9 ,
+	"year": 2003 ,
+	"link":"http://www.imdb.com/title/tt0309698/"
+	 },
+	{
+	"title":"Shutter Island" ,
+	"chooser":"Gary" ,
+	"mike": 8 ,
+	"steven": 7.9 ,
+	"difference": 0.1 ,
+	"mean": 7.95 ,
+	"year": 2010 ,
+	"link":"http://www.imdb.com/title/tt1130884/"
+	 },
+	{
+	"title":"Harry Potter and The Order of The Phoenix" ,
+	"chooser":"Both" ,
+	"mike": 6.0 ,
+	"steven": 7.7 ,
+	"difference": 1.7 ,
+	"mean": 6.85 ,
+	"year": 2007 ,
+	"link":"http://www.imdb.com/title/tt0373889/"
+	 },
+	{
+	"title":"Big Fish" ,
+	"chooser":"Steven" ,
+	"mike": 7.6 ,
+	"steven": 9 ,
+	"difference": 1.4 ,
+	"mean": 8.3 ,
+	"year": 2003 ,
+	"link":"http://www.imdb.com/title/tt0319061/"
+	 },
+	{
+	"title":"Xio Luo Te Fan Nao (Goodbye Mr. Loser)" ,
+	"chooser":"Mike" ,
+	"mike": 9.8 ,
+	"steven": 8.1 ,
+	"difference": 1.7 ,
+	"mean": 8.95 ,
+	"year": 2015 ,
+	"link":"http://www.imdb.com/title/tt5061814/"
+	 },
+	{
+	"title":"The Prestige" ,
+	"chooser":"Steven" ,
+	"mike": 7.2 ,
+	"steven": 8.4 ,
+	"difference": 1.2 ,
+	"mean": 7.8 ,
+	"year": 2006 ,
+	"link":"http://www.imdb.com/title/tt0482571/"
+	 }
+
+]

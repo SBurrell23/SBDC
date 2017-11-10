@@ -3,7 +3,7 @@
 
 	<div class="row">
 	 <div class="col s12">
-	    <h4 class="header orange-text text-darken-3">Parang</h4>
+	    <h4 class="header ">Parang</h4>
 	    <div class="card horizontal">
 	      <div class="card-image">
 	        <img src="http://i.imgur.com/PxE9SlF.png" alt="Parang" style="height:300px;width:330px;">
@@ -25,7 +25,7 @@
 	    </div>
 	  </div>
 	 <div class="col s12">
-	    <h4 class="header orange-text text-darken-3">The Cave Is Dark</h4>
+	    <h4 class="header ">The Cave Is Dark</h4>
 	    <div class="card horizontal">
 	      <div class="card-image">
 	        <img src="https://i.imgur.com/jyuOuDV.png" alt="The cave is dark">
@@ -44,7 +44,7 @@
 	    </div>
 	  </div>
 	 <div class="col s12">
-	    <h4 class="header orange-text text-darken-3">Duck Dreams</h4>
+	    <h4 class="header ">Duck Dreams</h4>
 	    <div class="card horizontal">
 	      <div class="card-image">
 	        <img src="https://i.imgur.com/eULrHR3.png" alt="Duck Dreams" style="width:300px;height:250px;">
@@ -64,7 +64,7 @@
 	    </div>
 	  </div>
 	 <div class="col s12">
-	    <h4 class="header orange-text text-darken-3">Dun-Gen</h4>
+	    <h4 class="header ">Dun-Gen</h4>
 	    <div class="card horizontal">
 	      <div class="card-image">
 	        <img src="http://i.imgur.com/icfekr3.png" alt="A dungeon generator" style="height:300px;width:350px;">

@@ -39,11 +39,11 @@
 			if(isset($_GET['v']))
 				switch ($_GET['v'])
 				{
-					case 'about':			include 'pages/about.php';			break;
-					case 'web_projects':	include 'pages/web_projects.php';	break;
-					case 'java_games':		include 'pages/java_games.php';		break;
-					case 'movie_blog':		include 'pages/movie_blog.php';		break;
-					default:				include 'pages/about.php';			break;
+					case 'about':			include 'pages/about.php';						break;
+					case 'web_projects':	include 'pages/web_projects.php';				break;
+					case 'java_games':		include 'pages/java_games/java_games.php';		break;
+					case 'movie_blog':		include 'pages/movie_blog/index.php';			break;
+					default:				include 'pages/about.php';						break;
 				}
 			else
 				include 'pages/about.php';
