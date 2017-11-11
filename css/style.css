@@ -58,6 +58,12 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
     -webkit-box-shadow: 0 1px 0 0 #546e7a;
     box-shadow: 0 1px 0 0 #546e7a;
 }
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+	 color:#ef6c00;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover{
+	color: #ff9800;
+}
 .nav-dropdown i{
 	margin-left: 2px;
 }
