@@ -50,6 +50,9 @@
 					case 'movie_blog':		include 'pages/movie_blog/index.php';					break;
 
 					case 'synonify':		include 'pages/web_projects/synonify/index.php';		break;
+					case 'ccc':				include 'pages/web_projects/colors/index.html';			break;
+					case 'get_bigger':		include 'pages/web_projects/getbigger/index.html';		break;
+					case 'sliding_puzzle':	include 'pages/web_projects/slidingpuzzle/index.html';	break;
 				}
 			else
 				include 'pages/about_me/index.php';
@@ -59,11 +62,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col l9 s12">
-					<h5 class="orange-text text-darken-3">Where Am I?</h5>
+					<h5 class="siteOrangeText">Where Am I?</h5>
 					<p class="grey-text text-lighten-4">Welcome to my website! This site exists primarily for a place to save my software development projects. Feel free to poke around and try out some of the games or tools you find. If you need to contact me, do so with the information to the right &nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
 				</div>
 				<div class="col l3 s12">
-					<h5 class="orange-text text-darken-3">Contact Me</h5>
+					<h5 class="siteOrangeText">Contact Me</h5>
 					<ul>
 						<li><a class="white-text" target="_blank" href="https://github.com/SBurrell23"><i class="fa fa-github"                  style='margin-right:12px;'></i>Github</a></li>
 						<li><a class="white-text" target="_blank" href="https://linkedin.com/in/stevengeorgeburrell/"><i class="fa fa-linkedin" style='margin-right:13px;'></i>LinkedIn</a></li>
@@ -74,7 +77,7 @@
 		</div>
 		<div class="footer-copyright">
 			<div class="container">
-				Made with love in <a class="orange-text text-darken-3" target="_blank" href="https://goo.gl/ynzCmB">Colorful Colorado!</a>
+				Made with love in <a class="siteOrangeText" target="_blank" href="https://goo.gl/ynzCmB">Colorful Colorado!</a>
 			</div>
 		</div>
 	</footer>

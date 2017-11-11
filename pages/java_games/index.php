@@ -11,8 +11,8 @@
 	      <div class="card-stacked">
 	        <div class="card-content">
 	            <p>
-				<a href="http://www.mediafire.com/download/yxnv9uaqt18b3yu/Parang.exe">Click Here</a> to download Parang (Windows .exe) [Easiest]<br>
-				<a href="http://www.mediafire.com/download/b1yrh58amn8dz3m/Parang.zip">Click Here</a> to download Parang (.jar in a .zip) [Will work on mac/linux]<br>
+				<a href="http://www.mediafire.com/download/yxnv9uaqt18b3yu/Parang.exe">Click Here</a> to download Parang (Windows only .exe) [Easiest]<br>
+				<a href="http://www.mediafire.com/download/b1yrh58amn8dz3m/Parang.zip">Click Here</a> to download Parang (.jar in a .zip) [Mac/Linux]<br>
 				<br>
 				Our first *feature length* java platformer/adventure game! <br>
 				Venture through the jungle collecting coins and avoiding danger. <br>
@@ -32,7 +32,7 @@
 	      </div>
 	      <div class="card-stacked">
 	        <div class="card-content">
-	          	<p><a href="http://www.mediafire.com/download/2zk1d1jfh9z0ysh/The+Cave+Is+Dark.zip">Click Here</a> to download The Cave Is Dark(Windows only .exe [42MB])<br>
+	          	<p><a href="http://www.mediafire.com/download/2zk1d1jfh9z0ysh/The+Cave+Is+Dark.zip">Click Here</a> to download The Cave Is Dark (Windows only .exe) [42MB]<br>
 	          	<br>
 				The first game I ever made. Applets got limiting and I decided to give the LWJGL a try. <br>
 				Trying to make an entire game from absolutely nothing is hard work, and the 'physics' in game tend to reflect that. <br>
@@ -51,7 +51,7 @@
 	      </div>
 	      <div class="card-stacked">
 	        <div class="card-content">
-	          	<p><a href="http://www.mediafire.com/download/xyg007u065xcl4z/Duck+Dreams.zip">Click Here</a> to download Duck Dreams (Windows only .exe [5MB])<br>
+	          	<p><a href="http://www.mediafire.com/download/xyg007u065xcl4z/Duck+Dreams.zip">Click Here</a> to download Duck Dreams (Windows only .exe) [5MB]<br>
 				<br>
 					Duck Dreams was a "The Impossible Game" type game I made after The Cave Is Dark and before Parang. <br>
 					But I never got around to finishing audio assets or touching up the main menu. <br>
@@ -71,7 +71,7 @@
 	      </div>
 	      <div class="card-stacked">
 	        <div class="card-content">
-	          	<p><a href="http://www.mediafire.com/download/x0mmbm9h6miam36/DungeonGenerator.exe">Click Here</a> to download Dun-Gen (.exe 3.6mb)<br>
+	          	<p><a href="http://www.mediafire.com/download/x0mmbm9h6miam36/DungeonGenerator.exe">Click Here</a> to download Dun-Gen (Windows only .exe) [3.6MB]<br>
 				<br>
 				Use W,A,S,D to move around the dungeons.<br>
 				My small pseudo-random dungeon generator. <br>
