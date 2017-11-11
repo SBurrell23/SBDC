@@ -89,4 +89,9 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 td, th {
 	border-radius: 0px;
 }
+.card-action-link-item{
+	display: inline-block;
+	text-align: center;
+	width:160px;
+}
 
