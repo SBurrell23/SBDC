@@ -7,7 +7,6 @@
 			<div class="collection">
 				<a href="?v=synonify" class="collection-item">Synonify</a>
 				<a href="?v=jeopardy_buzzers" class="collection-item">Jeopardy Buzzers</a>
-				<a href="?v=dbd_randomizer" class="collection-item">DBD Randomizer</a>
 			</div>
 		</div>
 		<div class="col s4">
