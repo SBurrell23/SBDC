@@ -54,6 +54,7 @@
 					case 'get_bigger':		include 'pages/web_projects/getbigger/index.html';		break;
 					case 'sliding_puzzle':	include 'pages/web_projects/slidingpuzzle/index.html';	break;
 					case 'jeopardy_buzzers':include 'pages/web_projects/jeopardybuzzers/index.php';	break;
+					//case 'esscoin':			include 'pages/web_projects/esscoin/index.html';		break;
 				}
 			else
 				include 'pages/about_me/index.php';

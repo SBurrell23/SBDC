@@ -20,6 +20,7 @@
 			<h4>Random &nbsp;<i class="fa fa-random headerIcon" style="font-size:23px;"></i></h4>
 			<div class="collection">
 				<a href="?v=ccc" class="collection-item">Colorful Circle Creator</a>
+				<a href="/pages/web_projects/esscoin/" class="collection-item">EssCoin Solutions</a>
 			</div>
 		</div>
 	</div>
