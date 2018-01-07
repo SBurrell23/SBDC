@@ -4,6 +4,8 @@ function main() {
 (function () {
    'use strict';
 
+   $('#currEssCoinsCirculating').html( (parseInt($('#currEssCoinsCirculating').html()) + Math.floor(Math.random() * (100000 - 1 + 1)) + 1).toLocaleString());
+
    /* ==============================================
   	Testimonial Slider
   	=============================================== */ 
