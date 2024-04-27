@@ -1,12 +1,12 @@
-/*
-* Template Name: BreezyCV - Resume / CV / vCard / Portfolio Template
-* Author: LMPixels
-* Author URL: http://themeforest.net/user/lmpixels
-* Version: 1.6.0
-*/
 
 (function($) {
 "use strict";
+
+    $("#aboutmePage").load("pages/aboutme.html"); 
+    $("#experiencePage").load("pages/experience.html");
+    $("#portfolioPage").load("pages/portfolio.html");
+    $("#webprojectsPage").load("pages/webprojects.html");
+
     // Portfolio subpage filters
     function portfolio_init() {
         var portfolio_grid = $('.portfolio-grid'),
@@ -304,13 +304,6 @@
             },
         });
 
-        //Google Maps
-        if ($(".lmpixels-map")[0]){
-            var address = 'San Francisco, S601 Townsend Street, California, USA', //Replace with Your Address
-                address = encodeURIComponent(address),
-                src = 'https://maps.google.com/maps?q=' + address + '&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near&output=embed';
-            $(".lmpixels-map iframe").attr("src", src);
-        }
     });
 
 })(jQuery);
