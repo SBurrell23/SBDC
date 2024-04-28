@@ -991,7 +991,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .lm-info-block h4 {
-  font-size: 15px;
+  font-size: 17px;
   margin-top: 8px;
 }
 
@@ -1002,6 +1002,12 @@ textarea.form-control, textarea.form-control:focus {
   display: block;
   margin: 10px 0;
   color: #09aeea;
+}
+
+.lm-info-block-text{
+  margin-top:15px;
+  font-size:13px;
+  padding:5px;
 }
 
 
