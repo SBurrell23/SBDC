@@ -121,9 +121,9 @@ p {
   margin: 10vh auto;
   padding: 0;
   background-color: #444;
-  -webkit-box-shadow: 0 0 100px -5px rgba(0,0,0,.25);
-  -moz-box-shadow: 0 0 100px -5px rgba(0,0,0,.25);
-  box-shadow: 0 0 100px -5px rgba(0,0,0,.25);
+  -webkit-box-shadow: 2px 3px 16px 11px rgba(0,0,0,0.34);
+  -moz-box-shadow: 2px 3px 16px 11px rgba(0,0,0,0.34);
+  box-shadow: 2px 3px 16px 11px rgba(0,0,0,0.34);
   border-radius: 15px;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -299,9 +299,9 @@ input[type="submit"]:focus {
     z-index: 999;
     list-style: none;
     top: 0;
-    -webkit-box-shadow: 0 0 30px -5px rgba(0,0,0,.15);
-    -moz-box-shadow: 0 0 30px -5px rgba(0,0,0,.15);
-    box-shadow: 0 0 30px -5px rgba(0,0,0,.15);
+    -webkit-box-shadow: 2px 3px 32px 7px rgba(0,0,0,0.41);
+    -moz-box-shadow: 2px 3px 32px 7px rgba(0,0,0,0.41);
+    box-shadow: 2px 3px 32px 7px rgba(0,0,0,0.41);
   }
 
   ul.main-menu a {
@@ -981,6 +981,11 @@ textarea.form-control, textarea.form-control:focus {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.lm-info-block:hover{
+  background-color: #444444;
+  cursor: pointer;
 }
 
 .lm-info-block i {
