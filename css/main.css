@@ -1006,13 +1006,13 @@ textarea.form-control, textarea.form-control:focus {
   font-weight: 400;
   display: block;
   margin: 10px 0;
-  color: #09aeea;
 }
 
 .lm-info-block-text{
   margin-top:15px;
   font-size:13px;
   padding:5px;
+  color: #d5d5d5;
 }
 
 
