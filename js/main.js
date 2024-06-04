@@ -6,6 +6,7 @@
     $("#experiencePage").load("pages/experience.html");
     $("#portfolioPage").load("pages/portfolio.html");
     $("#webprojectsPage").load("pages/webprojects.html");
+    $("#portfolioPage").load("pages/portfolio.html");
 
     // Portfolio subpage filters
     function portfolio_init() {
