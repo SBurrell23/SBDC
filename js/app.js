@@ -43,9 +43,6 @@
     }).join('');
 
     host.innerHTML = html;
-
-    var count = document.getElementById('projCount');
-    if (count) count.textContent = window.PROJECTS.length;
   }
 
   /* ---------------------------------------------------------------- tabs -- */
