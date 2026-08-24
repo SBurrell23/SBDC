@@ -45,6 +45,33 @@
     host.innerHTML = html;
   }
 
+  /* ------------------------------------------------------ contact links -- */
+  /* Contact details are kept out of the markup so a crawler scraping the raw
+     HTML finds no address or profile URL to harvest. Each .lk carries the
+     value reversed then base64'd; hrefs are assembled here at runtime. */
+  function deob(v) {
+    try {
+      return atob(v).split('').reverse().join('');
+    } catch (e) {
+      return '';
+    }
+  }
+
+  function wireLinks() {
+    document.querySelectorAll('a.lk').forEach(function (a) {
+      var val = deob(a.dataset.x);
+      if (!val) return;
+
+      a.href = a.dataset.as === 'mail' ? 'mailto:' + val : val;
+      if (a.dataset.t) a.textContent = deob(a.dataset.t);
+
+      // strip the payload once it has been used
+      delete a.dataset.x;
+      delete a.dataset.t;
+      delete a.dataset.as;
+    });
+  }
+
   /* ---------------------------------------------------------------- tabs -- */
   var TABS = ['home', 'about', 'experience', 'portfolio'];
 
@@ -216,6 +243,7 @@
   /* ---------------------------------------------------------------- init -- */
   function init() {
     renderProjects();
+    wireLinks();
     wireTabs();
     matrixRain();
     bootSequence(typeLoop);

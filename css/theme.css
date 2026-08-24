@@ -90,8 +90,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
     to bottom,
     rgba(0, 0, 0, 0)    0px,
     rgba(0, 0, 0, 0)    2px,
-    rgba(0, 0, 0, 0.20) 3px,
-    rgba(0, 0, 0, 0.20) 4px
+    rgba(0, 0, 0, 0.05) 3px,
+    rgba(0, 0, 0, 0.05) 4px
   );
 }
 
@@ -108,6 +108,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 #boot {
   position: fixed;
   inset: 0;
+  margin: 0;
+  overflow: hidden;
   z-index: 99;
   background: var(--bg);
   color: var(--green);
@@ -189,6 +191,17 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .sb-photo::after  { bottom: -3px; right: -3px; border-left: 0; border-top: 0; }
 .sb-photo img {
   width: 100%;
+}
+.sb-photo .glare {
+  position: absolute;
+  inset: 6px;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0)    0px,
+    rgba(0, 0, 0, 0)    1px,
+    rgba(0, 0, 0, 0.30) 2px,
+    rgba(0, 0, 0, 0.30) 3px);
 }
 
 /* identity */
