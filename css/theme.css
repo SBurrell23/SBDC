@@ -377,6 +377,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   position: relative;
 }
 .view { display: none; padding: 34px 40px 70px; max-width: 1400px; }
+/* The card grid earns more room than the prose tabs do. */
+#view-home { max-width: 1720px; }
 .view.active { display: block; animation: viewIn 0.35s ease both; }
 @keyframes viewIn {
   from { opacity: 0; transform: translateY(10px); }
@@ -435,8 +437,15 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 /* ------------------------------------------------------------ projects -- */
 .proj-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
+}
+/* Breakpoints account for the 330px sidebar + 40px view padding either side. */
+@media (min-width: 1280px) {
+  .proj-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (min-width: 1560px) {
+  .proj-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 
 .proj {
