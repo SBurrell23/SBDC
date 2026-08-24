@@ -1,205 +1,383 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>Steven Burrell</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Steven Burrell personal website" />
-    <meta name="keywords" content="steven, burrell, colorado, csu, programmer, software engineer, broomfield" />
-    <meta name="author" content="SGB" />
-    <link rel="shortcut icon" href="img/sb_favi.ico">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Steven Burrell // Software Engineer</title>
+  <meta name="description" content="Steven Burrell — full stack software engineer in Broomfield, Colorado. Web apps, APIs, and a pile of browser games.">
+  <meta name="keywords" content="steven burrell, colorado, csu, programmer, software engineer, broomfield, full stack, web games">
+  <meta name="author" content="Steven Burrell">
+  <meta name="theme-color" content="#040706">
+  <link rel="shortcut icon" href="img/sb_favi.ico">
 
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Steven Burrell // Software Engineer">
+  <meta property="og:description" content="Full stack software engineer. Web apps, APIs, and a pile of browser games.">
+  <meta property="og:url" content="https://stevenburrell.com/">
+  <meta property="og:image" content="https://stevenburrell.com/img/me.jpg">
 
-    <link rel="stylesheet" href="css/reset.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/animations.css" type="text/css">
-    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GFVRG5LGT7"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/theme.css">
 
-      gtag('config', 'G-GFVRG5LGT7');
-    </script>
-  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GFVRG5LGT7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GFVRG5LGT7');
+  </script>
+</head>
 
-  <body>
-    <!-- Animated Background -->
-    <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
-    <!-- /Animated Background -->
- 
-    <!-- Loading animation -->
-    <div class="preloader">
-      <div class="preloader-animation">
-        <div class="preloader-spinner">
-        </div>
+<body>
+  <canvas id="matrix" aria-hidden="true"></canvas>
+  <div class="vignette" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <pre id="boot" aria-hidden="true"></pre>
+
+  <div class="shell">
+
+    <!-- ================================================== fixed left panel -->
+    <aside class="sidebar">
+      <div class="sb-chrome">
+        <span class="sb-dot"></span>
+        <span class="sb-dot"></span>
+        <span class="sb-dot"></span>
+        <span class="sb-chrome-label">~/steven.burrell</span>
       </div>
-    </div>
-    <!-- /Loading animation -->
 
-    <div class="page">
-      <div class="page-content">
+      <div class="sb-body scroll-y">
+        <figure class="sb-photo">
+          <img src="img/me.jpg" alt="Steven Burrell">
+          <span class="glare" aria-hidden="true"></span>
+        </figure>
 
-          <header id="site_header" class="header mobile-menu-hide">
-            <div class="header-content">
-              <div class="header-photo">
-                <img src="img/me.jpg" alt="Steven Burrell">
-              </div>
-              <div class="header-titles">
-                <h2>Steven Burrell</h2>
-                <h4>Software Engineer</h4>
-              </div>
-            </div>
+        <h1 class="sb-name">STEVEN BURRELL</h1>
+        <p class="sb-role">
+          <span class="prompt">&gt;</span><span id="roleText"></span><span class="caret">|</span>
+        </p>
 
-            <ul class="main-menu">
-              <li >
-                <a href="#home" class="nav-anim" data-animation="61"> <!-- 27 -->
-                  <span class="menu-icon fa fa-home"></span>
-                  <span class="link-text">Home</span>
-                </a>
-              </li>
-              <li class="active">
-                <a href="#aboutme" class="nav-anim" data-animation="58"> <!-- 27 / 32 / 34 / 42 / 58-61 block turning-->
-                  <span class="menu-icon fa fa-user"></span>
-                  <span class="link-text">About Me</span>
-                </a>
-              </li>
-              <li>
-                <a href="#experience" class="nav-anim" data-animation="60">
-                  <span class="menu-icon fa fa-graduation-cap"></span>
-                  <span class="link-text">Experience</span>
-                </a>
-              </li>
-              <li>
-                <a href="#webprojects" class="nav-anim"  data-animation="61">
-                  <span class="menu-icon fa fa-cubes"></span>
-                  <span class="link-text">Projects</span>
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" class="nav-anim" data-animation="59">
-                  <span class="menu-icon fa fa-folder-open"></span>
-                  <span class="link-text">Portfolio</span>
-                </a>
-              </li>
-            </ul>
+        <div class="sb-rule" aria-hidden="true"></div>
 
-            <div class="social-links">
-              <ul>
-                <li><a href="https://www.linkedin.com/in/stevengeorgeburrell/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="https://github.com/SBurrell23" target="_blank"><i class="fab fa-github"></i></a></li>
-              </ul>
-            </div>
+        <ul class="sb-meta">
+          <li><span class="k">whoami</span><span class="v">sburrell23</span></li>
+          <li><span class="k">location</span><span class="v">Broomfield, CO</span></li>
+          <li><span class="k">role</span><span class="v">Sr. Software Engineer</span></li>
+          <li><span class="k">stack</span><span class="v">Vue / Node / SQL</span></li>
+          <li><span class="k">uptime</span><span class="v">10+ years</span></li>
+        </ul>
 
-            <div class="header-buttons">
-              <a href="assets/StevenBurrell-Resume.pdf" target="_blank" class="btn btn-primary">View Resume</a>
-            </div>
+        <div class="sb-social">
+          <a href="https://www.linkedin.com/in/stevengeorgeburrell/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/SBurrell23" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:sburrell23@gmail.com" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
 
-            <div class="copyrights">Made with ❤️ in Colorado</div>
-          </header>
+        <a href="assets/StevenBurrell-Resume.pdf" target="_blank" rel="noopener" class="btn-term">
+          <i class="fas fa-file-code"></i>&nbsp; cat resume.pdf
+        </a>
+      </div>
 
-          <!-- Mobile Navigation -->
-          <div class="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+      <div class="sb-foot">Made with &#10084;&#65039; in Colorado &middot; <span id="year"></span></div>
+    </aside>
+
+    <!-- ========================================================= main pane -->
+    <main class="main">
+      <nav class="tabbar" role="tablist" aria-label="Sections">
+        <button class="tab" data-tab="home" role="tab">
+          <i class="fas fa-terminal"></i>home<span class="ext">.js</span>
+        </button>
+        <button class="tab" data-tab="about" role="tab">
+          <i class="fas fa-user"></i>about<span class="ext">.md</span>
+        </button>
+        <button class="tab" data-tab="experience" role="tab">
+          <i class="fas fa-code-branch"></i>experience<span class="ext">.log</span>
+        </button>
+        <button class="tab" data-tab="portfolio" role="tab">
+          <i class="fas fa-folder-open"></i>portfolio<span class="ext">.json</span>
+        </button>
+        <span class="tab tab-spacer"></span>
+        <span class="tab-status"><span class="pulse"></span> online</span>
+      </nav>
+
+      <div class="viewport scroll-y">
+
+        <!-- ------------------------------------------------------ HOME --- -->
+        <section class="view" id="view-home" role="tabpanel">
+          <p class="crumb">~/ <b>projects</b> &mdash; ls -la</p>
+          <h2 class="view-title">Fun <span>Projects</span></h2>
+          <p class="view-sub">Everything below is playable in your browser right now. No installs, no accounts.</p>
+
+          <div class="stats">
+            <div class="stat"><div class="n" id="projCount">12</div><div class="l">Shipped &amp; Live</div></div>
+            <div class="stat"><div class="n">100%</div><div class="l">Built For The Web</div></div>
+            <div class="stat"><div class="n">0</div><div class="l">Downloads Required</div></div>
+            <div class="stat"><div class="n">&infin;</div><div class="l">Late Nights</div></div>
           </div>
-          <!-- End Mobile Navigation -->
 
-          <!-- Arrows Nav -->
-          <!-- <div class="lmpixels-arrows-nav">
-            <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
-            <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
-          </div> -->
-          <!-- End Arrows Nav -->
+          <div class="proj-grid" id="projGrid"></div>
+        </section>
 
-          <div class="content-area">
-            <div class="animated-sections">
+        <!-- ----------------------------------------------------- ABOUT --- -->
+        <section class="view" id="view-about" role="tabpanel">
+          <p class="crumb">~/ <b>about</b> &mdash; cat about.md</p>
+          <h2 class="view-title">About <span>Me</span></h2>
+          <p class="view-sub">Who is behind the keyboard.</p>
 
-              <!-- Home  -->
-              <section data-id="home" class="animated-section start-page">
-                <div  class="section-content vcentered">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                      <div class="title-block">
-                        <h2>Steven Burrell</h2>
-                        <div class="owl-carousel text-rotation">                                    
-                          <div class="item">
-                            <div class="sp-subtitle">full stack developer</div>
-                          </div>
-                          <div class="item">
-                            <div class="sp-subtitle">frontend engineer</div>
-                          </div>
-                          <div class="item">
-                            <div class="sp-subtitle">web application designer</div>
-                          </div>
-                          <div class="item">
-                            <div class="sp-subtitle">running enthusiast</div>
-                          </div>
-                          <div class="item">
-                            <div class="sp-subtitle">API engineer</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+          <div class="two-col stack">
+            <div class="term-card">
+              <div class="term-card-bar">/usr/share/<b>readme.md</b></div>
+              <div class="term-card-body">
+                <p class="prose">
+                  Hi! I'm Steven, a professional <em>full stack developer</em>. I've worked in the
+                  telecommunications industry building large scale web applications for over 10+ years.
+                  I have a Bachelors of Computer Science from Colorado State University and spend my
+                  hobby programming time building web tools, automation scripts, and video games.
+                </p>
+                <p class="prose">
+                  Currently, I'm working on incorporating <em>AI</em> into my software to help build
+                  dynamic applications in new ways.
+                </p>
+              </div>
+            </div>
+
+            <div class="term-card">
+              <div class="term-card-bar">env &mdash; <b>steven.env</b></div>
+              <div class="term-card-body">
+                <ul class="kv">
+                  <li><span class="k">Location</span><span class="v">Broomfield, CO</span></li>
+                  <li><span class="k">Education</span><span class="v">CSU / Computer Science</span></li>
+                  <li><span class="k">Favorite Stack</span><span class="v">Vue/React, Node, MySQL</span></li>
+                  <li><span class="k">E-Mail</span><span class="v"><a href="mailto:sburrell23@gmail.com">sburrell23@gmail.com</a></span></li>
+                  <li><span class="k">GitHub</span><span class="v"><a href="https://github.com/SBurrell23" target="_blank" rel="noopener">SBurrell23</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="stack">
+            <h3 class="block-head">What I Do</h3>
+            <div class="two-col">
+              <div class="skill-list">
+                <div class="skill">
+                  <div class="skill-icon"><i class="fas fa-desktop"></i></div>
+                  <div>
+                    <h4>frontEndDesign</h4>
+                    <p>
+                      My experience includes gathering business requirements, wireframing, mockups,
+                      prototyping, and iterative development. I've engineered front ends in Vue, Angular,
+                      React, and VanillaJS while styling with Bootstrap, Materialize, custom CSS &amp; SASS.
+                    </p>
                   </div>
                 </div>
-              </section>
-
-              <!-- About Me -->
-              <section data-id="aboutme" class="animated-section">
-                <div class="section-content">
-                  <div id="aboutmePage"></div>
+                <div class="skill">
+                  <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                  <div>
+                    <h4>buildApis</h4>
+                    <p>
+                      I create RESTful web APIs as both standalone projects, or paired as microservice
+                      layers for web applications. I've created APIs in multiple languages including Java,
+                      Node, PHP, and Python. Stress testing, security, and documentation are vital to a
+                      successful API release.
+                    </p>
+                  </div>
                 </div>
-              </section>
-
-              <!-- Experience -->
-              <section data-id="experience" class="animated-section">
-                <div class="section-content">
-                  <div id="experiencePage"></div>
+                <div class="skill">
+                  <div class="skill-icon"><i class="fas fa-cog"></i></div>
+                  <div>
+                    <h4>additionalSkills</h4>
+                    <p>
+                      I have experience creating realtime web applications using websockets. I've worked
+                      with Docker and Jenkins for CI/CD pipelines. I've also worked with Git, SVN, and Jira
+                      for version control and project management alongside scrum and agile methodologies.
+                    </p>
+                  </div>
                 </div>
-              </section>
+              </div>
 
-              <!-- Portfolio -->
-              <section data-id="portfolio" class="animated-section">
-                <div class="section-content">
-                  <div id="portfolioPage"></div>
+              <div class="skill-list">
+                <div class="skill">
+                  <div class="skill-icon"><i class="fas fa-database"></i></div>
+                  <div>
+                    <h4>modelData</h4>
+                    <p>
+                      Creating data models and translating those into the appropriate persistence layers is
+                      key to a successful front-backend connection. I've worked with relational databases,
+                      key-value stores, and document stores such as Redis, SQL, Couchbase, ElasticSearch,
+                      and MongoDB.
+                    </p>
+                  </div>
                 </div>
-              </section>
-
-              <!-- Web Projects -->
-              <section data-id="webprojects" class="animated-section">
-                <div class="section-content">
-                  <div id="webprojectsPage"></div>
+                <div class="skill">
+                  <div class="skill-icon"><i class="fas fa-image"></i></div>
+                  <div>
+                    <h4>renderGraphics</h4>
+                    <p>
+                      Responsive design, color theory, UX, branding, typography, as well as experience in
+                      Photoshop and Visio are all supplementary skills I have when developing projects.
+                      I also have experience using custom AI models for image creation.
+                    </p>
+                  </div>
                 </div>
-              </section>
-
+              </div>
             </div>
           </div>
+        </section>
+
+        <!-- ------------------------------------------------ EXPERIENCE --- -->
+        <section class="view" id="view-experience" role="tabpanel">
+          <p class="crumb">~/ <b>experience</b> &mdash; tail -f experience.log</p>
+          <h2 class="view-title">Exp<span>erience</span></h2>
+          <p class="view-sub">Work history, education, and the tools in the belt.</p>
+
+          <div class="two-col">
+            <div>
+              <div class="stack">
+                <h3 class="block-head">Work History</h3>
+                <div class="timeline">
+                  <div class="tl-item">
+                    <div class="tl-period">2024 &mdash; PRESENT</div>
+                    <h4 class="tl-role">Senior Software Engineer</h4>
+                    <div class="tl-org">Pearson</div>
+                    <ul class="bullets">
+                      <li>Building transformation software for assessments and qualifications.</li>
+                    </ul>
+                  </div>
+
+                  <div class="tl-item">
+                    <div class="tl-period">2017 &mdash; 2024</div>
+                    <h4 class="tl-role">Senior Software Engineer</h4>
+                    <div class="tl-org">LUMEN Technologies</div>
+                    <ul class="bullets">
+                      <li>Worked on the fault management team responsible for collecting and analyzing faults on the LUMEN network.</li>
+                      <li>Created realtime monitoring systems to gather and display faults for operations centers.</li>
+                      <li>Built tools for predicting and automating actions for faults to resolve them without human intervention.</li>
+                    </ul>
+                  </div>
+
+                  <div class="tl-item">
+                    <div class="tl-period">2014 &mdash; 2017</div>
+                    <h4 class="tl-role">Software Engineer</h4>
+                    <div class="tl-org">Level 3 Communications</div>
+                    <ul class="bullets">
+                      <li>Full stack developer for the service assurance department, replacing legacy systems and hard clients with modern web interfaces and storage solutions.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="stack">
+                <h3 class="block-head">Education</h3>
+                <div class="timeline">
+                  <div class="tl-item">
+                    <div class="tl-period">2015</div>
+                    <h4 class="tl-role">B.S. Computer Science, Minor in Business Administration</h4>
+                    <div class="tl-org">Colorado State University</div>
+                    <ul class="bullets">
+                      <li>Algorithms &amp; Data Structures, OOP with C++, Java Engineering, Unix Computing</li>
+                      <li>Web Development, Human-Computer Interaction, Database Management</li>
+                      <li>Logic &amp; Critical Thinking, Network Security, Low Level Computer Architecture, Software Engineering</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="stack">
+                <h3 class="block-head">Languages</h3>
+                <div class="chips">
+                  <span class="chip">Java</span>
+                  <span class="chip">Javascript</span>
+                  <span class="chip">Typescript</span>
+                  <span class="chip">Vue</span>
+                  <span class="chip">Node</span>
+                  <span class="chip">React</span>
+                  <span class="chip">PHP</span>
+                  <span class="chip">Python</span>
+                  <span class="chip">SQL</span>
+                  <span class="chip">AHK</span>
+                </div>
+              </div>
+
+              <div class="stack">
+                <h3 class="block-head">Software Skills</h3>
+                <div class="chips">
+                  <span class="chip">UX/UI Design</span>
+                  <span class="chip">Data Modeling</span>
+                  <span class="chip">GCP / AWS</span>
+                  <span class="chip">ElasticSearch</span>
+                  <span class="chip">Automation</span>
+                  <span class="chip">Back-End</span>
+                  <span class="chip">Wireframing</span>
+                  <span class="chip">Prototyping</span>
+                  <span class="chip">Document Stores</span>
+                  <span class="chip">Key-Value DBs</span>
+                  <span class="chip">Docker</span>
+                  <span class="chip">GIT / SVN</span>
+                  <span class="chip">APIs</span>
+                  <span class="chip">Unit Testing</span>
+                  <span class="chip">Load Balancing &amp; Scalability</span>
+                  <span class="chip">Redis</span>
+                  <span class="chip">Software Architecture</span>
+                </div>
+              </div>
+
+              <div class="stack">
+                <h3 class="block-head">Business Proficiencies</h3>
+                <div class="chips">
+                  <span class="chip">Scrum</span>
+                  <span class="chip">Agile Methodologies</span>
+                  <span class="chip">Telecommunications</span>
+                  <span class="chip">JIRA</span>
+                  <span class="chip">UX/CX</span>
+                  <span class="chip">Product Management</span>
+                  <span class="chip">Data Analytics</span>
+                  <span class="chip">Cross-team Collaboration</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ------------------------------------------------- PORTFOLIO --- -->
+        <section class="view" id="view-portfolio" role="tabpanel">
+          <p class="crumb">~/ <b>portfolio</b> &mdash; cat portfolio.json</p>
+          <h2 class="view-title">Port<span>folio</span></h2>
+          <p class="view-sub">Professional work is available on request.</p>
+
+          <div class="term-card">
+            <div class="term-card-bar">/home/steven/<b>portfolio.json</b></div>
+            <div class="term-card-body">
+<div class="pf-json"><span class="pun">{</span>
+<span class="ind"><span class="key">"status"</span><span class="pun">:</span> <span class="str">"available on request"</span><span class="pun">,</span></span>
+<span class="ind"><span class="key">"contact"</span><span class="pun">:</span> <a href="mailto:sburrell23@gmail.com">"sburrell23@gmail.com"</a><span class="pun">,</span></span>
+<span class="ind"><span class="key">"linkedin"</span><span class="pun">:</span> <a href="https://www.linkedin.com/in/stevengeorgeburrell/" target="_blank" rel="noopener">"/in/stevengeorgeburrell"</a><span class="pun">,</span></span>
+<span class="ind"><span class="key">"resume"</span><span class="pun">:</span> <a href="assets/StevenBurrell-Resume.pdf" target="_blank" rel="noopener">"StevenBurrell-Resume.pdf"</a><span class="pun">,</span></span>
+<span class="ind"><span class="key">"public_work"</span><span class="pun">:</span> <span class="pun">[</span></span>
+<span class="ind2"><span class="str">"12 live browser games &amp; tools"</span><span class="pun">,</span></span>
+<span class="ind2"><a href="https://github.com/SBurrell23" target="_blank" rel="noopener">"github.com/SBurrell23"</a></span>
+<span class="ind"><span class="pun">]</span></span>
+<span class="pun">}</span></div>
+
+              <div class="callout">
+                <b>Note:</b> My professional work at LUMEN and Level 3 lives behind internal systems, so
+                it can't be linked publicly. Please
+                <a href="mailto:sburrell23@gmail.com">contact me</a> for a walkthrough of past
+                professional projects, architecture diagrams, and references &mdash; or head to the
+                <a href="#home">home tab</a> to play the stuff I <em>can</em> show you.
+              </div>
+            </div>
+          </div>
+        </section>
 
       </div>
-    </div>
+    </main>
+  </div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/animating.js"></script>
-
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-
-    <script src='js/perfect-scrollbar.min.js'></script>
-    <script src='js/jquery.shuffle.min.js'></script>
-    <script src='js/masonry.pkgd.min.js'></script>
-    <script src='js/owl.carousel.min.js'></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-
-    <script src="js/validator.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/projects.js"></script>
+  <script src="js/app.js"></script>
+</body>
 </html>
