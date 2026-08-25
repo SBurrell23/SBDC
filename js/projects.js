@@ -56,13 +56,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Platformer']
   },
   {
-    name: 'Wizards Dice',
-    slug: 'wizards_dice',
-    icon: 'fa-hat-wizard',
-    url: 'https://wizardsdice.com/',
-    repo: 'https://github.com/SBurrell23/WizardsDiceVSCode',
-    desc: 'A board game I made, turned web app. Roll dice and cast spells in a peer-based 1v1 showdown. Live at wizardsdice.com.',
-    tags: ['Vue', 'Board Game', 'Custom Domain']
+    name: 'Lights Out',
+    slug: 'lights_out',
+    icon: 'fa-lightbulb',
+    url: 'https://sburrell23.github.io/Lights-Out/',
+    repo: 'https://github.com/SBurrell23/Lights-Out',
+    desc: 'A peer-to-peer haunted house co-op: one player navigates a randomly generated maze in total darkness while everyone else shouts directions.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Co-op']
   },
   {
     name: 'Tadpole Dungeon',
@@ -72,6 +72,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/Tadpole-Dungeon',
     desc: 'A peer-to-peer multiplayer snake game set in a randomly generated underground pond. Eat flies, grow long, and do not touch anything.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Procedural']
+  },
+  {
+    name: 'Wizards Dice',
+    slug: 'wizards_dice',
+    icon: 'fa-hat-wizard',
+    url: 'https://wizardsdice.com/',
+    repo: 'https://github.com/SBurrell23/WizardsDiceVSCode',
+    desc: 'A board game I made, turned web app. Roll dice and cast spells in a peer-based 1v1 showdown. Live at wizardsdice.com.',
+    tags: ['Vue', 'Board Game', 'Custom Domain']
   },
   {
     name: 'High Noon',
