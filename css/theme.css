@@ -84,7 +84,6 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   bottom: -4px;
   z-index: 20;
   pointer-events: none;
-  overflow: hidden;
   background: repeating-linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0)    0px,
@@ -99,25 +98,6 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   to   { transform: translateY(4px); }
 }
 
-/* A soft band easing down the screen, like a tube refreshing. */
-.scanlines::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 26vh;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 255, 156, 0)     0%,
-    rgba(0, 255, 156, 0.028) 50%,
-    rgba(0, 255, 156, 0)     100%
-  );
-  animation: crtSweep 11s linear infinite;
-}
-@keyframes crtSweep {
-  from { transform: translateY(-30vh); }
-  to   { transform: translateY(130vh); }
-}
 
 .vignette {
   position: fixed;
@@ -766,5 +746,4 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
-  .scanlines::after { display: none; }
 }
