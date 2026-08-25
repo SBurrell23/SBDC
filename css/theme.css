@@ -76,8 +76,9 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .scroll-y::-webkit-scrollbar-thumb:hover { background: var(--green-mid); }
 
 /* --------------------------------------------------------- backdrop fx -- */
-/* Drifting CRT lines. The layer runs 4px past the bottom edge so the
-   translate can loop exactly one gradient period and never seam. */
+/* Faded CRT lines, scrolling slowly enough to sit below notice. The layer
+   runs 4px past the bottom edge so the translate can loop exactly one
+   gradient period and never seam. */
 .scanlines {
   position: fixed;
   inset: 0;
@@ -88,10 +89,10 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
     to bottom,
     rgba(0, 0, 0, 0)    0px,
     rgba(0, 0, 0, 0)    2px,
-    rgba(0, 0, 0, 0.05) 3px,
-    rgba(0, 0, 0, 0.05) 4px
+    rgba(0, 0, 0, 0.035) 3px,
+    rgba(0, 0, 0, 0.035) 4px
   );
-  animation: scanDrift 7s linear infinite;
+  animation: scanDrift 22s linear infinite;
 }
 @keyframes scanDrift {
   from { transform: translateY(0); }
