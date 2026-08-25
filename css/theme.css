@@ -43,10 +43,7 @@ html, body {
 }
 
 body {
-  background:
-    radial-gradient(ellipse 120% 90% at 50% -10%,
-                    rgba(22, 195, 124, 0.07) 0%, transparent 62%),
-    var(--bg);
+  background: var(--bg);
   color: var(--text);
   font-family: var(--mono);
   font-size: 14px;
@@ -89,10 +86,10 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
     to bottom,
     rgba(0, 0, 0, 0)    0px,
     rgba(0, 0, 0, 0)    2px,
-    rgba(0, 0, 0, 0.035) 3px,
-    rgba(0, 0, 0, 0.035) 4px
+    rgba(0, 0, 0, 0.075) 3px,
+    rgba(0, 0, 0, 0.075) 4px
   );
-  animation: scanDrift 22s linear infinite;
+  animation: scanDrift 10s linear infinite;
 }
 @keyframes scanDrift {
   from { transform: translateY(0); }
