@@ -47,6 +47,15 @@ window.PROJECTS = [
     tags: ['TypeScript', 'Bullet Heaven', 'Roguelite']
   },
   {
+    name: 'Freeze Tag',
+    slug: 'freeze_tag',
+    icon: 'fa-snowflake',
+    url: 'https://sburrell23.github.io/Freeze-Tag/',
+    repo: 'https://github.com/SBurrell23/Freeze-Tag',
+    desc: 'Peer-to-peer 2D platformer freeze tag. One tagger, up to four runners, one enormous arena.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Platformer']
+  },
+  {
     name: 'Wizards Dice',
     slug: 'wizards_dice',
     icon: 'fa-hat-wizard',
