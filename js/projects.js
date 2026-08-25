@@ -56,6 +56,15 @@ window.PROJECTS = [
     tags: ['Vue', 'Board Game', 'Custom Domain']
   },
   {
+    name: 'Tadpole Dungeon',
+    slug: 'tadpole_dungeon',
+    icon: 'fa-dungeon',
+    url: 'https://sburrell23.github.io/Tadpole-Dungeon/',
+    repo: 'https://github.com/SBurrell23/Tadpole-Dungeon',
+    desc: 'A peer-to-peer multiplayer snake game set in a randomly generated underground pond. Eat flies, grow long, and do not touch anything.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Procedural']
+  },
+  {
     name: 'High Noon',
     slug: 'high_noon',
     icon: 'fa-hat-cowboy',

@@ -208,7 +208,7 @@
     'sbdc-terminal v3.0.0 (' + new Date().getFullYear() + ')',
     'mounting /dev/portfolio ......... ok',
     'loading identity: steven.burrell . ok',
-    'resolving projects [12] ......... ok',
+    'resolving projects [' + (window.PROJECTS || []).length + '] ......... ok',
     'starting ui ..................... ok',
     '',
     '> launch'
