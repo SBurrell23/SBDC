@@ -150,54 +150,6 @@
     })();
   }
 
-  /* ---------------------------------------------------------- matrix rain -- */
-  function matrixRain() {
-    var cv = document.getElementById('matrix');
-    if (!cv || reduceMotion) return;
-
-    var ctx = cv.getContext('2d');
-    var glyphs = 'ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉ01</>{}[]$#*+=;:_'.split('');
-    var size = 15;
-    var cols = 0;
-    var drops = [];
-
-    function resize() {
-      cv.width = window.innerWidth;
-      cv.height = window.innerHeight;
-      cols = Math.ceil(cv.width / size);
-      drops = new Array(cols);
-      for (var i = 0; i < cols; i++) {
-        drops[i] = Math.random() * -50;
-      }
-    }
-
-    function draw() {
-      ctx.fillStyle = 'rgba(4, 7, 6, 0.08)';
-      ctx.fillRect(0, 0, cv.width, cv.height);
-      ctx.font = size + 'px monospace';
-
-      for (var i = 0; i < cols; i++) {
-        var ch = glyphs[(Math.random() * glyphs.length) | 0];
-        var y = drops[i] * size;
-
-        ctx.fillStyle = Math.random() > 0.985 ? '#eafff5' : '#0f8f5e';
-        ctx.fillText(ch, i * size, y);
-
-        if (y > cv.height && Math.random() > 0.975) drops[i] = 0;
-        drops[i]++;
-      }
-    }
-
-    resize();
-    window.addEventListener('resize', resize);
-
-    var last = 0;
-    (function frame(ts) {
-      if (ts - last > 55) { draw(); last = ts; }
-      requestAnimationFrame(frame);
-    })(0);
-  }
-
   /* ------------------------------------------------------------ boot text -- */
   var BOOT = [
     'sbdc-terminal v3.0.0 (' + new Date().getFullYear() + ')',
@@ -240,7 +192,6 @@
     renderProjects();
     wireLinks();
     wireTabs();
-    matrixRain();
     bootSequence(typeLoop);
 
     var yr = document.getElementById('year');
