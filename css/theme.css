@@ -450,6 +450,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 
 .proj {
   position: relative;
+  color: var(--text);
   display: flex;
   flex-direction: column;
   background: linear-gradient(155deg, var(--bg-raised), #060b09);
@@ -466,6 +467,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   transition: opacity 0.2s ease;
 }
 .proj:hover {
+  color: var(--text);
   border-color: var(--line-strong);
   transform: translateY(-3px);
   box-shadow: 0 12px 30px rgba(0,0,0,0.6), 0 0 0 1px rgba(0,255,156,0.08);
@@ -521,11 +523,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 
 .proj-foot {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
   padding: 4px 16px 14px;
-  flex-wrap: wrap;
 }
 
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -538,27 +536,6 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   background: rgba(0,255,156,0.03);
 }
 
-.proj-run {
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--green);
-  white-space: nowrap;
-}
-.proj-run i {
-  display: inline-block;
-  margin-left: 4px;
-  transition: transform 0.2s ease;
-}
-.proj:hover .proj-run i { transform: translateX(4px); }
-
-.proj-src {
-  font-size: 12.5px;
-  color: var(--muted);
-  transition: color 0.2s ease;
-  flex: 0 0 auto;
-}
-.proj-src:hover { color: var(--green); }
 
 /* ----------------------------------------------------------- about/exp -- */
 .two-col {

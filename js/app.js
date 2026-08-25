@@ -16,30 +16,25 @@
         return '<span class="tag">' + t + '</span>';
       }).join('');
 
+      // The whole card is the link, so it holds no interactive children.
       return '' +
-        '<article class="proj">' +
-          '<div class="proj-bar">' +
+        '<a class="proj" href="' + p.url + '" target="_blank" rel="noopener"' +
+          ' aria-label="Play ' + p.name + '">' +
+          '<span class="proj-bar">' +
             '<span class="proj-path">~/projects/<b>' + p.slug + '</b></span>' +
             '<span class="proj-idx">' + idx + '</span>' +
-          '</div>' +
-          '<a class="proj-main" href="' + p.url + '" target="_blank" rel="noopener"' +
-            ' aria-label="Play ' + p.name + '">' +
+          '</span>' +
+          '<span class="proj-main">' +
             '<span class="proj-icon"><i class="fas ' + p.icon + '"></i></span>' +
             '<span>' +
               '<span class="proj-name">' + p.name + '</span>' +
               '<span class="proj-desc">' + p.desc + '</span>' +
             '</span>' +
-          '</a>' +
-          '<div class="proj-foot">' +
-            '<div class="tags">' + tags + '</div>' +
-            '<div class="tags">' +
-              '<a class="proj-src" href="' + p.repo + '" target="_blank" rel="noopener"' +
-                ' title="Source on GitHub"><i class="fab fa-github"></i></a>' +
-              '<a class="proj-run" href="' + p.url + '" target="_blank" rel="noopener">' +
-                'run<i class="fas fa-caret-right"></i></a>' +
-            '</div>' +
-          '</div>' +
-        '</article>';
+          '</span>' +
+          '<span class="proj-foot">' +
+            '<span class="tags">' + tags + '</span>' +
+          '</span>' +
+        '</a>';
     }).join('');
 
     host.innerHTML = html;
