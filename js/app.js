@@ -113,12 +113,13 @@
 
   /* --------------------------------------------------------- role typing -- */
   var ROLES = [
+    'agentic developer',
     'full stack developer',
-    'frontend engineer',
-    'API architect',
-    'web app designer',
+    'product engineer',
+    'rapid prototyper',
+    'code reviewer',
     'game tinkerer',
-    'running enthusiast'
+    'pickleball enthusiast'
   ];
 
   function typeLoop() {
