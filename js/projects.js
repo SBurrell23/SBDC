@@ -92,6 +92,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'WebSockets', 'Realtime']
   },
   {
+    name: 'High Noon 2',
+    slug: 'high_noon_2',
+    icon: 'fa-hat-cowboy-side',
+    url: 'https://sburrell23.github.io/High-Noon-2/',
+    repo: 'https://github.com/SBurrell23/High-Noon-2',
+    desc: 'A peer-to-peer western showdown for 2-5 players. Draw fast, or draw your last.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Realtime']
+  },
+  {
     name: 'Spooky Climb',
     slug: 'spooky_climb',
     icon: 'fa-mountain',
