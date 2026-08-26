@@ -56,6 +56,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Platformer']
   },
   {
+    name: 'BOMBerman',
+    slug: 'bomberman',
+    icon: 'fa-bomb',
+    url: 'https://sburrell23.github.io/BOMBerman/',
+    repo: 'https://github.com/SBurrell23/BOMBerman',
+    desc: 'Four-player peer-to-peer Bomberman in vanilla JS. Host a lobby, share a 4-letter code, blow each other up.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Arcade']
+  },
+  {
     name: 'Lights Out',
     slug: 'lights_out',
     icon: 'fa-lightbulb',
