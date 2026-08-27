@@ -20,13 +20,13 @@ window.PROJECTS = [
     tags: ['TypeScript', 'Incremental', 'Economy Sim']
   },
   {
-    name: 'Pig Dice',
-    slug: 'pig_dice',
-    icon: 'fa-dice',
-    url: 'https://pigdice.fun/',
-    repo: 'https://github.com/SBurrell23/PigGame',
-    desc: 'A peer-based group take on the dice game Pig. 2-6 players press their luck over a direct connection — no accounts, no server, very addicting with friends. Live at pigdice.fun.',
-    tags: ['Vue', 'P2P Multiplayer', 'Custom Domain']
+    name: 'Copycats',
+    slug: 'copycats',
+    icon: 'fa-cat',
+    url: 'https://sburrell23.github.io/Copycats/',
+    repo: 'https://github.com/SBurrell23/Copycats',
+    desc: 'A school-themed memory party game for up to 6 players. Memorize the arrow combo before the board gets covered, then punch it in against the clock. Three strikes and you are expelled.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Memory']
   },
   {
     name: 'Swordcraft',
@@ -90,6 +90,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/WizardsDiceVSCode',
     desc: 'A board game I made, turned web app. Roll dice and cast spells in a peer-based 1v1 showdown. Live at wizardsdice.com.',
     tags: ['Vue', 'Board Game', 'Custom Domain']
+  },
+  {
+    name: 'Pig Dice',
+    slug: 'pig_dice',
+    icon: 'fa-dice',
+    url: 'https://pigdice.fun/',
+    repo: 'https://github.com/SBurrell23/PigGame',
+    desc: 'A peer-based group take on the dice game Pig. 2-6 players press their luck over a direct connection — no accounts, no server, very addicting with friends. Live at pigdice.fun.',
+    tags: ['Vue', 'P2P Multiplayer', 'Custom Domain']
   },
   {
     name: 'High Noon',
