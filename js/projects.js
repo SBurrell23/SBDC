@@ -29,13 +29,13 @@ window.PROJECTS = [
     tags: ['Vue', 'P2P Multiplayer', 'Custom Domain']
   },
   {
-    name: 'The Snatcher',
-    slug: 'the_snatcher',
-    icon: 'fa-ghost',
-    url: 'https://sburrell23.github.io/The_Snatcher/',
-    repo: 'https://github.com/SBurrell23/The_Snatcher',
-    desc: 'A procedurally generated asymmetric horror game. Survivors scavenge a shifting map while one player hunts them. Do not get snatched.',
-    tags: ['JavaScript', 'WebSockets', 'Procedural']
+    name: 'Swordcraft',
+    slug: 'swordcraft',
+    icon: 'fa-chess-rook',
+    url: 'https://sburrell23.github.io/Swordcraft/',
+    repo: 'https://github.com/SBurrell23/Swordcraft',
+    desc: 'A peer-to-peer real-time strategy game for 2-4 players, built in vanilla JavaScript.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'RTS']
   },
   {
     name: 'Abyss Survivors',
@@ -108,6 +108,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/High-Noon-2',
     desc: 'A peer-to-peer western showdown for 2-5 players. Draw fast, or draw your last.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Realtime']
+  },
+  {
+    name: 'The Snatcher',
+    slug: 'the_snatcher',
+    icon: 'fa-ghost',
+    url: 'https://sburrell23.github.io/The_Snatcher/',
+    repo: 'https://github.com/SBurrell23/The_Snatcher',
+    desc: 'A procedurally generated asymmetric horror game. Survivors scavenge a shifting map while one player hunts them. Do not get snatched.',
+    tags: ['JavaScript', 'WebSockets', 'Procedural']
   },
   {
     name: 'Spooky Climb',
