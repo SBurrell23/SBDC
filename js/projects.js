@@ -38,13 +38,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'RTS']
   },
   {
-    name: 'Abyss Survivors',
-    slug: 'abyss_survivors',
-    icon: 'fa-fish',
-    url: 'https://sburrell23.github.io/Abyss-Survivors/',
-    repo: 'https://github.com/SBurrell23/Abyss-Survivors',
-    desc: 'Vampire Survivors, but underwater. Dodge the swarm, stack upgrades, and see how deep into the abyss you can hold out.',
-    tags: ['TypeScript', 'Bullet Heaven', 'Roguelite']
+    name: 'Tug Typer',
+    slug: 'tug_typer',
+    icon: 'fa-keyboard',
+    url: 'https://sburrell23.github.io/Tug-Typer/',
+    repo: 'https://github.com/SBurrell23/Tug-Typer',
+    desc: 'A peer-to-peer typing tug-of-war for up to 5 campers. Two players grab the rope and race through a book passage — pull far enough ahead and you haul your rival into the mud. Winner stays on.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Typing']
   },
   {
     name: 'Freeze Tag',
@@ -81,6 +81,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/Tadpole-Dungeon',
     desc: 'A peer-to-peer multiplayer snake game set in a randomly generated underground pond. Eat flies, grow long, and do not touch anything.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Procedural']
+  },
+  {
+    name: 'Abyss Survivors',
+    slug: 'abyss_survivors',
+    icon: 'fa-fish',
+    url: 'https://sburrell23.github.io/Abyss-Survivors/',
+    repo: 'https://github.com/SBurrell23/Abyss-Survivors',
+    desc: 'Vampire Survivors, but underwater. Dodge the swarm, stack upgrades, and see how deep into the abyss you can hold out.',
+    tags: ['TypeScript', 'Bullet Heaven', 'Roguelite']
   },
   {
     name: 'Wizards Dice',

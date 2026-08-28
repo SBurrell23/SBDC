@@ -108,7 +108,18 @@
           <p class="crumb">~/ <b>projects</b> &mdash; ls -la</p>
           <h2 class="view-title solo">Proj<span>ects</span></h2>
 
+          <div class="filter" id="filterBar">
+            <span class="filter-prompt" aria-hidden="true">$</span>
+            <span class="filter-cmd" aria-hidden="true">grep</span>
+            <input id="projFilter" type="text" autocomplete="off" autocapitalize="off"
+                   autocorrect="off" spellcheck="false" placeholder="filter projects&hellip;"
+                   aria-label="Filter projects" aria-controls="projGrid">
+            <kbd class="filter-esc" aria-hidden="true">esc</kbd>
+            <span class="filter-count" id="filterCount" aria-live="polite"></span>
+          </div>
+
           <div class="proj-grid" id="projGrid"></div>
+          <p class="filter-empty" id="filterEmpty" hidden></p>
         </section>
 
         <!-- ----------------------------------------------------- ABOUT --- -->

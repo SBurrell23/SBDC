@@ -40,6 +40,104 @@
     host.innerHTML = html;
   }
 
+  /* -------------------------------------------------------------- filter -- */
+  function wireFilter() {
+    var grid  = document.getElementById('projGrid');
+    var input = document.getElementById('projFilter');
+    var bar   = document.getElementById('filterBar');
+    var count = document.getElementById('filterCount');
+    var empty = document.getElementById('filterEmpty');
+    if (!grid || !input) return;
+
+    var cards = [].slice.call(grid.querySelectorAll('.proj'));
+
+    // One lowercase haystack per card, built once rather than per keystroke.
+    var hay = (window.PROJECTS || []).map(function (p) {
+      return (p.name + ' ' + p.slug + ' ' + p.desc + ' ' + p.tags.join(' ')).toLowerCase();
+    });
+
+    // .is-in carries animation-fill-mode: both, so leaving it on would pin
+    // transform and kill the hover lift. Clear it on a timer rather than on
+    // animationend, which never fires if the tab is hidden mid-animation.
+    var MAX_DELAY = 130;
+    var DURATION = 160;
+    var sweep = null;
+
+    function clearEntry() {
+      cards.forEach(function (c) {
+        c.classList.remove('is-in');
+        c.style.animationDelay = '';
+      });
+    }
+
+    function apply(animate) {
+      var q = input.value.trim().toLowerCase();
+      var hits = 0;
+
+      if (animate) {
+        clearTimeout(sweep);
+        clearEntry();
+        void grid.offsetWidth; // one reflow, so every card restarts together
+      }
+
+      cards.forEach(function (card, i) {
+        var hit = !q || hay[i].indexOf(q) !== -1;
+        card.classList.toggle('is-out', !hit);
+
+        if (hit && animate) {
+          // Stagger, but cap it so a wide match still feels instant.
+          card.style.animationDelay = Math.min(hits * 16, MAX_DELAY) + 'ms';
+          card.classList.add('is-in');
+        }
+        if (hit) hits++;
+      });
+
+      if (animate) sweep = setTimeout(clearEntry, MAX_DELAY + DURATION + 60);
+
+      bar.classList.toggle('has-q', q !== '');
+
+      count.textContent = '';
+      var n = document.createElement('b');
+      n.textContent = hits;
+      count.appendChild(n);
+      count.appendChild(document.createTextNode('/' + cards.length));
+
+      if (empty) {
+        empty.hidden = hits !== 0;
+        if (!hits) {
+          empty.textContent = 'grep: no projects match ';
+          var b = document.createElement('b');
+          b.textContent = "'" + input.value.trim() + "'";
+          empty.appendChild(b);
+        }
+      }
+    }
+
+    input.addEventListener('input', function () { apply(true); });
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        input.value = '';
+        apply(true);
+        input.blur();
+      }
+    });
+
+    // "/" drops you into the filter, the way it does in a pager.
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+
+      var home = document.getElementById('view-home');
+      if (!home || !home.classList.contains('active')) return;
+
+      e.preventDefault();
+      input.focus();
+    });
+
+    apply(false);
+  }
+
   /* ------------------------------------------------------ contact links -- */
   /* Contact details are kept out of the markup so a crawler scraping the raw
      HTML finds no address or profile URL to harvest. Each .lk carries the
@@ -191,6 +289,7 @@
   /* ---------------------------------------------------------------- init -- */
   function init() {
     renderProjects();
+    wireFilter();
     wireLinks();
     wireTabs();
     bootSequence(typeLoop);
