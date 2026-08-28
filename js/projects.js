@@ -11,13 +11,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'WebRTC / P2P', 'Party']
   },
   {
-    name: 'Gobbo Market',
-    slug: 'gobbo_market',
-    icon: 'fa-store',
-    url: 'https://sburrell23.github.io/GobboMarket/',
-    repo: 'https://github.com/SBurrell23/GobboMarket',
-    desc: 'An incremental trading sim where you buy low, sell high, and grind your way from street peddler to full-blown goblin tycoon.',
-    tags: ['TypeScript', 'Incremental', 'Economy Sim']
+    name: 'Star Charters',
+    slug: 'star_charters',
+    icon: 'fa-rocket',
+    url: 'https://sburrell23.github.io/Star-Charters/',
+    repo: 'https://github.com/SBurrell23/Star-Charters',
+    desc: 'A peer-to-peer space navigation game for up to 6 pilots. Memorize the star lane, fly it blind through the void, and hit the wormhole.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Space']
   },
   {
     name: 'Copycats',
@@ -92,13 +92,13 @@ window.PROJECTS = [
     tags: ['TypeScript', 'Bullet Heaven', 'Roguelite']
   },
   {
-    name: 'Wizards Dice',
-    slug: 'wizards_dice',
-    icon: 'fa-hat-wizard',
-    url: 'https://wizardsdice.com/',
-    repo: 'https://github.com/SBurrell23/WizardsDiceVSCode',
-    desc: 'A board game I made, turned web app. Roll dice and cast spells in a peer-based 1v1 showdown. Live at wizardsdice.com.',
-    tags: ['Vue', 'Board Game', 'Custom Domain']
+    name: 'Gobbo Market',
+    slug: 'gobbo_market',
+    icon: 'fa-store',
+    url: 'https://sburrell23.github.io/GobboMarket/',
+    repo: 'https://github.com/SBurrell23/GobboMarket',
+    desc: 'An incremental trading sim where you buy low, sell high, and grind your way from street peddler to full-blown goblin tycoon.',
+    tags: ['TypeScript', 'Incremental', 'Economy Sim']
   },
   {
     name: 'Pig Dice',
@@ -108,6 +108,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/PigGame',
     desc: 'A peer-based group take on the dice game Pig. 2-6 players press their luck over a direct connection — no accounts, no server, very addicting with friends. Live at pigdice.fun.',
     tags: ['Vue', 'P2P Multiplayer', 'Custom Domain']
+  },
+  {
+    name: 'Wizards Dice',
+    slug: 'wizards_dice',
+    icon: 'fa-hat-wizard',
+    url: 'https://wizardsdice.com/',
+    repo: 'https://github.com/SBurrell23/WizardsDiceVSCode',
+    desc: 'A board game I made, turned web app. Roll dice and cast spells in a peer-based 1v1 showdown. Live at wizardsdice.com.',
+    tags: ['Vue', 'Board Game', 'Custom Domain']
   },
   {
     name: 'High Noon',
