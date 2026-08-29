@@ -11,13 +11,22 @@ window.PROJECTS = [
     tags: ['JavaScript', 'WebRTC / P2P', 'Party']
   },
   {
-    name: 'Star Charters',
-    slug: 'star_charters',
-    icon: 'fa-rocket',
-    url: 'https://sburrell23.github.io/Star-Charters/',
-    repo: 'https://github.com/SBurrell23/Star-Charters',
-    desc: 'A peer-to-peer space navigation game for up to 6 pilots. Memorize the star lane, fly it blind through the void, and hit the wormhole.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'Space']
+    name: 'Lil Legends',
+    slug: 'lil_legends',
+    icon: 'fa-shield-alt',
+    url: 'https://sburrell23.github.io/Lil-Legends/',
+    repo: 'https://github.com/SBurrell23/Lil-Legends',
+    desc: 'A two-player peer-to-peer lane battler. Draft eight legends, hold your half of the board, and storm the enemy town — or take on the castellan solo.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Lane Battler']
+  },
+  {
+    name: 'Lights Out',
+    slug: 'lights_out',
+    icon: 'fa-lightbulb',
+    url: 'https://sburrell23.github.io/Lights-Out/',
+    repo: 'https://github.com/SBurrell23/Lights-Out',
+    desc: 'A peer-to-peer haunted house co-op: one player navigates a randomly generated maze in total darkness while everyone else shouts directions.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Co-op']
   },
   {
     name: 'Copycats',
@@ -56,6 +65,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Platformer']
   },
   {
+    name: 'Star Charters',
+    slug: 'star_charters',
+    icon: 'fa-rocket',
+    url: 'https://sburrell23.github.io/Star-Charters/',
+    repo: 'https://github.com/SBurrell23/Star-Charters',
+    desc: 'A peer-to-peer space navigation game for up to 6 pilots. Memorize the star lane, fly it blind through the void, and hit the wormhole.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Space']
+  },
+  {
     name: 'BOMBerman',
     slug: 'bomberman',
     icon: 'fa-bomb',
@@ -63,15 +81,6 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/BOMBerman',
     desc: 'Four-player peer-to-peer Bomberman in vanilla JS. Host a lobby, share a 4-letter code, blow each other up.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Arcade']
-  },
-  {
-    name: 'Lights Out',
-    slug: 'lights_out',
-    icon: 'fa-lightbulb',
-    url: 'https://sburrell23.github.io/Lights-Out/',
-    repo: 'https://github.com/SBurrell23/Lights-Out',
-    desc: 'A peer-to-peer haunted house co-op: one player navigates a randomly generated maze in total darkness while everyone else shouts directions.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'Co-op']
   },
   {
     name: 'Tadpole Dungeon',
