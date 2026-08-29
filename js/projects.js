@@ -11,6 +11,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'WebRTC / P2P', 'Party']
   },
   {
+    name: 'Swordcraft',
+    slug: 'swordcraft',
+    icon: 'fa-chess-rook',
+    url: 'https://sburrell23.github.io/Swordcraft/',
+    repo: 'https://github.com/SBurrell23/Swordcraft',
+    desc: 'A peer-to-peer real-time strategy game for 2-4 players, built in vanilla JavaScript.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'RTS']
+  },
+  {
     name: 'Lil Legends',
     slug: 'lil_legends',
     icon: 'fa-shield-alt',
@@ -18,15 +27,6 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/Lil-Legends',
     desc: 'A two-player peer-to-peer lane battler. Draft eight legends, hold your half of the board, and storm the enemy town — or take on the castellan solo.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Lane Battler']
-  },
-  {
-    name: 'Lights Out',
-    slug: 'lights_out',
-    icon: 'fa-lightbulb',
-    url: 'https://sburrell23.github.io/Lights-Out/',
-    repo: 'https://github.com/SBurrell23/Lights-Out',
-    desc: 'A peer-to-peer haunted house co-op: one player navigates a randomly generated maze in total darkness while everyone else shouts directions.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'Co-op']
   },
   {
     name: 'Copycats',
@@ -38,13 +38,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Memory']
   },
   {
-    name: 'Swordcraft',
-    slug: 'swordcraft',
-    icon: 'fa-chess-rook',
-    url: 'https://sburrell23.github.io/Swordcraft/',
-    repo: 'https://github.com/SBurrell23/Swordcraft',
-    desc: 'A peer-to-peer real-time strategy game for 2-4 players, built in vanilla JavaScript.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'RTS']
+    name: 'Lights Out',
+    slug: 'lights_out',
+    icon: 'fa-lightbulb',
+    url: 'https://sburrell23.github.io/Lights-Out/',
+    repo: 'https://github.com/SBurrell23/Lights-Out',
+    desc: 'A peer-to-peer haunted house co-op: one player navigates a randomly generated maze in total darkness while everyone else shouts directions.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Co-op']
   },
   {
     name: 'Tug Typer',
