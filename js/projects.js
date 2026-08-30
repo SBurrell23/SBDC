@@ -56,13 +56,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Typing']
   },
   {
-    name: 'Freeze Tag',
-    slug: 'freeze_tag',
-    icon: 'fa-snowflake',
-    url: 'https://sburrell23.github.io/Freeze-Tag/',
-    repo: 'https://github.com/SBurrell23/Freeze-Tag',
-    desc: 'Peer-to-peer 2D platformer freeze tag. One tagger, up to four runners, one enormous arena.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'Platformer']
+    name: 'Words 99',
+    slug: 'words_99',
+    icon: 'fa-book-open',
+    url: 'https://sburrell23.github.io/Words-99/',
+    repo: 'https://github.com/SBurrell23/Words-99',
+    desc: 'A five-letter word race. Six attempts, one word, everyone chasing it at once. Study alone against the clock, or open a reading room where rivals see your marks but never your letters.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Word Game']
   },
   {
     name: 'Star Charters',
@@ -90,6 +90,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/Sliding-Puzzle-Party',
     desc: 'A fast, competitive take on the sliding puzzle. Race your own best time solo, or drop into a Tetris 99 style peer-to-peer room and slide against everyone at once.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Puzzle']
+  },
+  {
+    name: 'Freeze Tag',
+    slug: 'freeze_tag',
+    icon: 'fa-snowflake',
+    url: 'https://sburrell23.github.io/Freeze-Tag/',
+    repo: 'https://github.com/SBurrell23/Freeze-Tag',
+    desc: 'Peer-to-peer 2D platformer freeze tag. One tagger, up to four runners, one enormous arena.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Platformer']
   },
   {
     name: 'BOMBerman',
