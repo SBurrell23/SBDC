@@ -83,6 +83,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Realtime']
   },
   {
+    name: 'Sliding Puzzle Party',
+    slug: 'sliding_puzzle_party',
+    icon: 'fa-puzzle-piece',
+    url: 'https://sburrell23.github.io/Sliding-Puzzle-Party/',
+    repo: 'https://github.com/SBurrell23/Sliding-Puzzle-Party',
+    desc: 'A fast, competitive take on the sliding puzzle. Race your own best time solo, or drop into a Tetris 99 style peer-to-peer room and slide against everyone at once.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Puzzle']
+  },
+  {
     name: 'BOMBerman',
     slug: 'bomberman',
     icon: 'fa-bomb',
