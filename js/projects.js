@@ -74,6 +74,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Space']
   },
   {
+    name: 'The Shootout',
+    slug: 'the_shootout',
+    icon: 'fa-hat-cowboy-side',
+    url: 'https://sburrell23.github.io/the-shootout/',
+    repo: 'https://github.com/SBurrell23/the-shootout',
+    desc: 'A peer-to-peer spaghetti western quick-draw duel. Everyone waits in the queue, two gunslingers step into the street, and the fastest trigger finger keeps it. Twitch early and you shoot your own boot off.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Realtime']
+  },
+  {
     name: 'BOMBerman',
     slug: 'bomberman',
     icon: 'fa-bomb',
