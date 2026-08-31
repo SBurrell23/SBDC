@@ -34,7 +34,7 @@ window.PROJECTS = [
     icon: 'fa-user-astronaut',
     url: 'https://sburrell23.github.io/Stevens-Super-Galaxy-Party/',
     repo: 'https://github.com/SBurrell23/Stevens-Super-Galaxy-Party',
-    desc: 'A space-themed party board game for 1-8 spacefarers. Three galaxy boards, twelve minigames, and CPU rivals to fill the empty seats.',
+    desc: 'A space-themed party board game for 1-8 spacefarers. Race around a galaxy board, brawl through the minigames, and add CPU rivals to fill the empty seats.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Party']
   },
   {
