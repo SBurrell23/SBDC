@@ -20,6 +20,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'RTS']
   },
   {
+    name: 'Dungeon RPG',
+    slug: 'dungeon_rpg',
+    icon: 'fa-dragon',
+    url: 'https://sburrell23.github.io/Dungeon-RPG/',
+    repo: 'https://github.com/SBurrell23/Dungeon-RPG',
+    desc: 'A peer-to-peer top-down dungeon crawler for 1-4 players. Seven classes, ten procedurally generated floors, one way down. Bring friends.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Dungeon Crawler']
+  },
+  {
     name: 'Lil Legends',
     slug: 'lil_legends',
     icon: 'fa-shield-alt',
