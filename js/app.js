@@ -51,9 +51,15 @@
 
     var cards = [].slice.call(grid.querySelectorAll('.proj'));
 
-    // One lowercase haystack per card, built once rather than per keystroke.
+    // Apostrophes are dropped on both sides so a title like "Steven’s" is
+    // reachable by typing "stevens" or "steven's".
+    function norm(v) {
+      return v.toLowerCase().replace(/['’]/g, '');
+    }
+
+    // One normalised haystack per card, built once rather than per keystroke.
     var hay = (window.PROJECTS || []).map(function (p) {
-      return (p.name + ' ' + p.slug + ' ' + p.desc + ' ' + p.tags.join(' ')).toLowerCase();
+      return norm(p.name + ' ' + p.slug + ' ' + p.desc + ' ' + p.tags.join(' '));
     });
 
     // .is-in carries animation-fill-mode: both, so leaving it on would pin
@@ -71,7 +77,8 @@
     }
 
     function apply(animate) {
-      var q = input.value.trim().toLowerCase();
+      var raw = input.value.trim();
+      var q = norm(raw);
       var hits = 0;
 
       if (animate) {
@@ -94,7 +101,7 @@
 
       if (animate) sweep = setTimeout(clearEntry, MAX_DELAY + DURATION + 60);
 
-      bar.classList.toggle('has-q', q !== '');
+      bar.classList.toggle('has-q', raw !== '');
 
       count.textContent = '';
       var n = document.createElement('b');
@@ -107,7 +114,7 @@
         if (!hits) {
           empty.textContent = 'grep: no projects match ';
           var b = document.createElement('b');
-          b.textContent = "'" + input.value.trim() + "'";
+          b.textContent = "'" + raw + "'";
           empty.appendChild(b);
         }
       }

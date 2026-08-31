@@ -29,6 +29,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Dungeon Crawler']
   },
   {
+    name: 'Steven’s Super Galaxy Party',
+    slug: 'galaxy_party',
+    icon: 'fa-user-astronaut',
+    url: 'https://sburrell23.github.io/Stevens-Super-Galaxy-Party/',
+    repo: 'https://github.com/SBurrell23/Stevens-Super-Galaxy-Party',
+    desc: 'A space-themed party board game for 1-8 spacefarers. Three galaxy boards, twelve minigames, and CPU rivals to fill the empty seats.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Party']
+  },
+  {
     name: 'Lil Legends',
     slug: 'lil_legends',
     icon: 'fa-shield-alt',
