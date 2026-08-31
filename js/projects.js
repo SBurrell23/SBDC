@@ -22,7 +22,7 @@ window.PROJECTS = [
   {
     name: 'Dungeon RPG',
     slug: 'dungeon_rpg',
-    icon: 'fa-dragon',
+    icon: 'fa-dungeon',
     url: 'https://sburrell23.github.io/Dungeon-RPG/',
     repo: 'https://github.com/SBurrell23/Dungeon-RPG',
     desc: 'A peer-to-peer top-down dungeon crawler for 1-4 players. Seven classes, ten procedurally generated floors, one way down. Bring friends.',
@@ -121,7 +121,7 @@ window.PROJECTS = [
   {
     name: 'Tadpole Dungeon',
     slug: 'tadpole_dungeon',
-    icon: 'fa-dungeon',
+    icon: 'fa-frog',
     url: 'https://sburrell23.github.io/Tadpole-Dungeon/',
     repo: 'https://github.com/SBurrell23/Tadpole-Dungeon',
     desc: 'A peer-to-peer multiplayer snake game set in a randomly generated underground pond. Eat flies, grow long, and do not touch anything.',
