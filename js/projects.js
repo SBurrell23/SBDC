@@ -34,7 +34,7 @@ window.PROJECTS = [
     icon: 'fa-user-astronaut',
     url: 'https://sburrell23.github.io/SSGP/',
     repo: 'https://github.com/SBurrell23/SSGP',
-    desc: 'A deep-space peer-to-peer party game. Rally a crew and brawl through a gauntlet of minigames. One player walks away galactic champion; the rest get a planet.',
+    desc: 'A deep-space peer-to-peer party game. Rally a crew and brawl through a gauntlet of minigames. One player walks away galactic champion; the rest are left for dead.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Party']
   },
   {
