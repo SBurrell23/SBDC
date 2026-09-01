@@ -29,13 +29,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Dungeon Crawler']
   },
   {
-    name: 'Steven’s Super Galaxy Challenge',
-    slug: 'galaxy_challenge',
-    icon: 'fa-user-astronaut',
-    url: 'https://sburrell23.github.io/SSGC/',
-    repo: 'https://github.com/SBurrell23/SSGC',
-    desc: 'A deep-space peer-to-peer party game. Rally a crew and brawl through a gauntlet of minigames. One player walks away galactic champion; the rest are left for dead.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'Party']
+    name: 'Words 99',
+    slug: 'words_99',
+    icon: 'fa-book-open',
+    url: 'https://sburrell23.github.io/Words-99/',
+    repo: 'https://github.com/SBurrell23/Words-99',
+    desc: 'A five-letter word race. Six attempts, one word, everyone chasing it at once. Study alone against the clock, or open a reading room where rivals see your marks but never your letters.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Word Game']
   },
   {
     name: 'Lil Legends',
@@ -74,13 +74,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Typing']
   },
   {
-    name: 'Words 99',
-    slug: 'words_99',
-    icon: 'fa-book-open',
-    url: 'https://sburrell23.github.io/Words-99/',
-    repo: 'https://github.com/SBurrell23/Words-99',
-    desc: 'A five-letter word race. Six attempts, one word, everyone chasing it at once. Study alone against the clock, or open a reading room where rivals see your marks but never your letters.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'Word Game']
+    name: 'Steven’s Super Galaxy Challenge',
+    slug: 'galaxy_challenge',
+    icon: 'fa-user-astronaut',
+    url: 'https://sburrell23.github.io/SSGC/',
+    repo: 'https://github.com/SBurrell23/SSGC',
+    desc: 'A deep-space peer-to-peer party game. Rally a crew and brawl through a gauntlet of minigames. One player walks away galactic champion; the rest are left for dead.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Party']
   },
   {
     name: 'Copycats',
