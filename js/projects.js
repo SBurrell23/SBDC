@@ -56,13 +56,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Memory']
   },
   {
-    name: 'Lights Out',
-    slug: 'lights_out',
-    icon: 'fa-lightbulb',
-    url: 'https://sburrell23.github.io/Lights-Out/',
-    repo: 'https://github.com/SBurrell23/Lights-Out',
-    desc: 'A peer-to-peer haunted house co-op: one player navigates a randomly generated maze in total darkness while everyone else shouts directions.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'Co-op']
+    name: 'Sliding Puzzle Party',
+    slug: 'sliding_puzzle_party',
+    icon: 'fa-puzzle-piece',
+    url: 'https://sburrell23.github.io/Sliding-Puzzle-Party/',
+    repo: 'https://github.com/SBurrell23/Sliding-Puzzle-Party',
+    desc: 'A fast, competitive take on the sliding puzzle. Race your own best time solo, or drop into a Tetris 99 style peer-to-peer room and slide against everyone at once.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Puzzle']
   },
   {
     name: 'Tug Typer',
@@ -101,13 +101,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Realtime']
   },
   {
-    name: 'Sliding Puzzle Party',
-    slug: 'sliding_puzzle_party',
-    icon: 'fa-puzzle-piece',
-    url: 'https://sburrell23.github.io/Sliding-Puzzle-Party/',
-    repo: 'https://github.com/SBurrell23/Sliding-Puzzle-Party',
-    desc: 'A fast, competitive take on the sliding puzzle. Race your own best time solo, or drop into a Tetris 99 style peer-to-peer room and slide against everyone at once.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'Puzzle']
+    name: 'Lights Out',
+    slug: 'lights_out',
+    icon: 'fa-lightbulb',
+    url: 'https://sburrell23.github.io/Lights-Out/',
+    repo: 'https://github.com/SBurrell23/Lights-Out',
+    desc: 'A peer-to-peer haunted house co-op: one player navigates a randomly generated maze in total darkness while everyone else shouts directions.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Co-op']
   },
   {
     name: 'Freeze Tag',
