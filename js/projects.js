@@ -29,11 +29,11 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Dungeon Crawler']
   },
   {
-    name: 'Steven’s Super Galaxy Party',
-    slug: 'galaxy_party',
+    name: 'Steven’s Super Galaxy Challenge',
+    slug: 'galaxy_challenge',
     icon: 'fa-user-astronaut',
-    url: 'https://sburrell23.github.io/SSGP/',
-    repo: 'https://github.com/SBurrell23/SSGP',
+    url: 'https://sburrell23.github.io/SSGC/',
+    repo: 'https://github.com/SBurrell23/SSGC',
     desc: 'A deep-space peer-to-peer party game. Rally a crew and brawl through a gauntlet of minigames. One player walks away galactic champion; the rest are left for dead.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Party']
   },
