@@ -47,13 +47,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Lane Battler']
   },
   {
-    name: 'Copycats',
-    slug: 'copycats',
-    icon: 'fa-cat',
-    url: 'https://sburrell23.github.io/Copycats/',
-    repo: 'https://github.com/SBurrell23/Copycats',
-    desc: 'A school-themed memory party game for up to 6 players. Memorize the arrow combo before the board gets covered, then punch it in against the clock. Three strikes and you are expelled.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'Memory']
+    name: 'Murder In Broomfield',
+    slug: 'murder_in_broomfield',
+    icon: 'fa-fingerprint',
+    url: 'https://sburrell23.github.io/Murder-In-Broomfield/',
+    repo: 'https://github.com/SBurrell23/Murder-In-Broomfield',
+    desc: 'A peer-to-peer social deduction game for 4-6 detectives. One of you did it, one of you knows, and the evidence does not lie — but everyone else might.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Social Deduction']
   },
   {
     name: 'Sliding Puzzle Party',
@@ -83,13 +83,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Word Game']
   },
   {
-    name: 'Star Charters',
-    slug: 'star_charters',
-    icon: 'fa-rocket',
-    url: 'https://sburrell23.github.io/Star-Charters/',
-    repo: 'https://github.com/SBurrell23/Star-Charters',
-    desc: 'A peer-to-peer space navigation game for up to 6 pilots. Memorize the star lane, fly it blind through the void, and hit the wormhole.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'Space']
+    name: 'Copycats',
+    slug: 'copycats',
+    icon: 'fa-cat',
+    url: 'https://sburrell23.github.io/Copycats/',
+    repo: 'https://github.com/SBurrell23/Copycats',
+    desc: 'A school-themed memory party game for up to 6 players. Memorize the arrow combo before the board gets covered, then punch it in against the clock. Three strikes and you are expelled.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Memory']
   },
   {
     name: 'The Shootout',
@@ -108,6 +108,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/Lights-Out',
     desc: 'A peer-to-peer haunted house co-op: one player navigates a randomly generated maze in total darkness while everyone else shouts directions.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Co-op']
+  },
+  {
+    name: 'Star Charters',
+    slug: 'star_charters',
+    icon: 'fa-rocket',
+    url: 'https://sburrell23.github.io/Star-Charters/',
+    repo: 'https://github.com/SBurrell23/Star-Charters',
+    desc: 'A peer-to-peer space navigation game for up to 6 pilots. Memorize the star lane, fly it blind through the void, and hit the wormhole.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Space']
   },
   {
     name: 'Freeze Tag',
