@@ -110,9 +110,18 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Co-op']
   },
   {
+    name: 'To The Moon',
+    slug: 'to_the_moon',
+    icon: 'fa-space-shuttle',
+    url: 'https://sburrell23.github.io/To-The-Moon/',
+    repo: 'https://github.com/SBurrell23/To-The-Moon',
+    desc: 'Build rockets in your garage and launch them for cash, paid out by altitude. Bolt on better parts, punch through the atmosphere, and keep climbing until you reach the Moon.',
+    tags: ['JavaScript', 'Physics Sim', 'Incremental']
+  },
+  {
     name: 'Star Charters',
     slug: 'star_charters',
-    icon: 'fa-rocket',
+    icon: 'fa-star',
     url: 'https://sburrell23.github.io/Star-Charters/',
     repo: 'https://github.com/SBurrell23/Star-Charters',
     desc: 'A peer-to-peer space navigation game for up to 6 pilots. Memorize the star lane, fly it blind through the void, and hit the wormhole.',
