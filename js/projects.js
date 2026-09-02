@@ -119,6 +119,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'Physics Sim', 'Incremental']
   },
   {
+    name: 'Dropple',
+    slug: 'dropple',
+    icon: 'fa-magic',
+    url: 'https://sburrell23.github.io/Dropple/',
+    repo: 'https://github.com/SBurrell23/Dropple',
+    desc: 'Peggle, but high fantasy. Drop the ball, ricochet it through a field of pegs, and pop the board clear with spells.',
+    tags: ['JavaScript', 'Physics Sim', 'Arcade']
+  },
+  {
     name: 'Star Charters',
     slug: 'star_charters',
     icon: 'fa-star',
