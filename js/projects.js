@@ -2,13 +2,13 @@
    Order here is the order shown on the page. */
 window.PROJECTS = [
   {
-    name: 'Password Party Game',
-    slug: 'password_party',
-    icon: 'fa-key',
-    url: 'https://sburrell23.github.io/PasswordPartyGame/',
-    repo: 'https://github.com/SBurrell23/PasswordPartyGame',
-    desc: 'A peer-to-peer party game in the spirit of Password — feed your teammates one-word clues and race to land the secret answer.',
-    tags: ['JavaScript', 'WebRTC / P2P', 'Party']
+    name: 'Dropple',
+    slug: 'dropple',
+    icon: 'fa-magic',
+    url: 'https://sburrell23.github.io/Dropple/',
+    repo: 'https://github.com/SBurrell23/Dropple',
+    desc: 'Peggle, but high fantasy. Drop the ball, ricochet it through a field of pegs, and pop the board clear with spells.',
+    tags: ['JavaScript', 'Physics Sim', 'Arcade']
   },
   {
     name: 'Swordcraft',
@@ -38,13 +38,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Word Game']
   },
   {
-    name: 'Lil Legends',
-    slug: 'lil_legends',
-    icon: 'fa-shield-alt',
-    url: 'https://sburrell23.github.io/Lil-Legends/',
-    repo: 'https://github.com/SBurrell23/Lil-Legends',
-    desc: 'A two-player peer-to-peer lane battler. Draft eight legends, hold your half of the board, and storm the enemy town — or take on the castellan solo.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'Lane Battler']
+    name: 'Crazee-quarium',
+    slug: 'crazee_quarium',
+    icon: 'fa-water',
+    url: 'https://sburrell23.github.io/Crazee-quarium/',
+    repo: 'https://github.com/SBurrell23/Crazee-quarium',
+    desc: 'An aquarium survival game in the spirit of Insaniquarium. Feed the fish, scoop the coins, fend off aliens, and hatch pets — every sprite and sound drawn at runtime.',
+    tags: ['JavaScript', 'Canvas', 'Survival']
   },
   {
     name: 'Murder In Broomfield',
@@ -92,6 +92,24 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Memory']
   },
   {
+    name: 'Lil Legends',
+    slug: 'lil_legends',
+    icon: 'fa-shield-alt',
+    url: 'https://sburrell23.github.io/Lil-Legends/',
+    repo: 'https://github.com/SBurrell23/Lil-Legends',
+    desc: 'A two-player peer-to-peer lane battler. Draft eight legends, hold your half of the board, and storm the enemy town — or take on the castellan solo.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'Lane Battler']
+  },
+  {
+    name: 'Password Party Game',
+    slug: 'password_party',
+    icon: 'fa-key',
+    url: 'https://sburrell23.github.io/PasswordPartyGame/',
+    repo: 'https://github.com/SBurrell23/PasswordPartyGame',
+    desc: 'A peer-to-peer party game in the spirit of Password — feed your teammates one-word clues and race to land the secret answer.',
+    tags: ['JavaScript', 'WebRTC / P2P', 'Party']
+  },
+  {
     name: 'The Shootout',
     slug: 'the_shootout',
     icon: 'fa-hat-cowboy-side',
@@ -117,15 +135,6 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/To-The-Moon',
     desc: 'Build rockets in your garage and launch them for cash, paid out by altitude. Bolt on better parts, punch through the atmosphere, and keep climbing until you reach the Moon.',
     tags: ['JavaScript', 'Physics Sim', 'Incremental']
-  },
-  {
-    name: 'Dropple',
-    slug: 'dropple',
-    icon: 'fa-magic',
-    url: 'https://sburrell23.github.io/Dropple/',
-    repo: 'https://github.com/SBurrell23/Dropple',
-    desc: 'Peggle, but high fantasy. Drop the ball, ricochet it through a field of pegs, and pop the board clear with spells.',
-    tags: ['JavaScript', 'Physics Sim', 'Arcade']
   },
   {
     name: 'Star Charters',
