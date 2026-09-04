@@ -2,15 +2,6 @@
    Order here is the order shown on the page. */
 window.PROJECTS = [
   {
-    name: 'Deep Space',
-    slug: 'deep_space',
-    icon: 'fa-space-shuttle',
-    url: 'https://sburrell23.github.io/Deep-Space/',
-    repo: 'https://github.com/SBurrell23/Deep-Space',
-    desc: 'A roguelike starship run in the spirit of FTL. Push out through a fogged web of star systems, levelling as you go, until you are strong enough to face the Master Fleet.',
-    tags: ['JavaScript', 'Roguelike', 'Space']
-  },
-  {
     name: 'Dropple',
     slug: 'dropple',
     icon: 'fa-magic',
@@ -72,6 +63,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/Sliding-Puzzle-Party',
     desc: 'A fast, competitive take on the sliding puzzle. Race your own best time solo, or drop into a Tetris 99 style peer-to-peer room and slide against everyone at once.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Puzzle']
+  },
+  {
+    name: 'Deep Space',
+    slug: 'deep_space',
+    icon: 'fa-space-shuttle',
+    url: 'https://sburrell23.github.io/Deep-Space/',
+    repo: 'https://github.com/SBurrell23/Deep-Space',
+    desc: 'A roguelike starship run in the spirit of FTL. Push out through a fogged web of star systems, levelling as you go, until you are strong enough to face the Master Fleet.',
+    tags: ['JavaScript', 'Roguelike', 'Space']
   },
   {
     name: 'Tug Typer',
