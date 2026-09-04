@@ -2,6 +2,15 @@
    Order here is the order shown on the page. */
 window.PROJECTS = [
   {
+    name: 'Deep Space',
+    slug: 'deep_space',
+    icon: 'fa-rocket',
+    url: 'https://sburrell23.github.io/Deep-Space/',
+    repo: 'https://github.com/SBurrell23/Deep-Space',
+    desc: 'A roguelike starship run in the spirit of FTL. Push out through a fogged web of star systems, levelling as you go, until you are strong enough to face the Master Fleet.',
+    tags: ['JavaScript', 'Roguelike', 'Space']
+  },
+  {
     name: 'Dropple',
     slug: 'dropple',
     icon: 'fa-magic',
