@@ -4,7 +4,7 @@ window.PROJECTS = [
   {
     name: 'Deep Space',
     slug: 'deep_space',
-    icon: 'fa-rocket',
+    icon: 'fa-space-shuttle',
     url: 'https://sburrell23.github.io/Deep-Space/',
     repo: 'https://github.com/SBurrell23/Deep-Space',
     desc: 'A roguelike starship run in the spirit of FTL. Push out through a fogged web of star systems, levelling as you go, until you are strong enough to face the Master Fleet.',
@@ -139,7 +139,7 @@ window.PROJECTS = [
   {
     name: 'To The Moon',
     slug: 'to_the_moon',
-    icon: 'fa-space-shuttle',
+    icon: 'fa-rocket',
     url: 'https://sburrell23.github.io/To-The-Moon/',
     repo: 'https://github.com/SBurrell23/To-The-Moon',
     desc: 'Build rockets in your garage and launch them for cash, paid out by altitude. Bolt on better parts, punch through the atmosphere, and keep climbing until you reach the Moon.',
