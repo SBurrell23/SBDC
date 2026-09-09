@@ -11,6 +11,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'Physics Sim', 'Arcade']
   },
   {
+    name: 'Deep Jungle',
+    slug: 'deep_jungle',
+    icon: 'fa-tree',
+    url: 'https://sburrell23.github.io/Deep-Jungle/',
+    repo: 'https://github.com/SBurrell23/Deep-Jungle',
+    desc: 'A turn-based jungle roguelite. Pick three adventurers, carve a branching path through procedurally generated undergrowth, and face whatever stirs at the Heart of the Jungle.',
+    tags: ['JavaScript', 'Roguelite', 'Turn-Based']
+  },
+  {
     name: 'Swordcraft',
     slug: 'swordcraft',
     icon: 'fa-chess-rook',
