@@ -74,13 +74,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Puzzle']
   },
   {
-    name: 'Deep Space',
-    slug: 'deep_space',
-    icon: 'fa-space-shuttle',
-    url: 'https://sburrell23.github.io/Deep-Space/',
-    repo: 'https://github.com/SBurrell23/Deep-Space',
-    desc: 'A roguelike starship run in the spirit of FTL. Push out through a fogged web of star systems, levelling as you go, until you are strong enough to face the Master Fleet.',
-    tags: ['JavaScript', 'Roguelike', 'Space']
+    name: 'Net-Defence',
+    slug: 'net_defence',
+    icon: 'fa-network-wired',
+    url: 'https://sburrell23.github.io/Net-Defence/',
+    repo: 'https://github.com/SBurrell23/Net-Defence',
+    desc: 'A tower defence game that thinks it is a computer from the year 2000. Slot counter-measures into sockets and hold the core — no assets anywhere, every sprite a character grid and every sound synthesised at runtime.',
+    tags: ['JavaScript', 'Tower Defence', 'Retro UI']
   },
   {
     name: 'Tug Typer',
@@ -108,6 +108,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/Copycats',
     desc: 'A school-themed memory party game for up to 6 players. Memorize the arrow combo before the board gets covered, then punch it in against the clock. Three strikes and you are expelled.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Memory']
+  },
+  {
+    name: 'Deep Space',
+    slug: 'deep_space',
+    icon: 'fa-space-shuttle',
+    url: 'https://sburrell23.github.io/Deep-Space/',
+    repo: 'https://github.com/SBurrell23/Deep-Space',
+    desc: 'A roguelike starship run in the spirit of FTL. Push out through a fogged web of star systems, levelling as you go, until you are strong enough to face the Master Fleet.',
+    tags: ['JavaScript', 'Roguelike', 'Space']
   },
   {
     name: 'Lil Legends',
