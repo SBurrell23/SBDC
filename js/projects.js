@@ -29,13 +29,13 @@ window.PROJECTS = [
     tags: ['JavaScript', 'Roguelite', 'Turn-Based']
   },
   {
-    name: 'Swordcraft',
-    slug: 'swordcraft',
-    icon: 'fa-chess-rook',
-    url: 'https://sburrell23.github.io/Swordcraft/',
-    repo: 'https://github.com/SBurrell23/Swordcraft',
-    desc: 'A peer-to-peer real-time strategy game for 2-4 players, built in vanilla JavaScript.',
-    tags: ['JavaScript', 'P2P Multiplayer', 'RTS']
+    name: 'Bridge To Eternity',
+    slug: 'bridge_to_eternity',
+    icon: 'fa-archway',
+    url: 'https://sburrell23.github.io/Bridge-To-Eternity/',
+    repo: 'https://github.com/SBurrell23/Bridge-To-Eternity',
+    desc: 'A 3D peer-to-peer card game in the clouds. Builders race to span the sky and open the Gate of Gold, but the Fallen walk among them. Every card, sound and cloud generated in code.',
+    tags: ['Three.js', 'Card Game', 'Social Deduction']
   },
   {
     name: 'Battleships 3D',
@@ -72,6 +72,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/Murder-In-Broomfield',
     desc: 'A peer-to-peer social deduction game for 4-6 detectives. One of you did it, one of you knows, and the evidence does not lie — but everyone else might.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Social Deduction']
+  },
+  {
+    name: 'Swordcraft',
+    slug: 'swordcraft',
+    icon: 'fa-chess-rook',
+    url: 'https://sburrell23.github.io/Swordcraft/',
+    repo: 'https://github.com/SBurrell23/Swordcraft',
+    desc: 'A peer-to-peer real-time strategy game for 2-4 players, built in vanilla JavaScript.',
+    tags: ['JavaScript', 'P2P Multiplayer', 'RTS']
   },
   {
     name: 'Crazee-quarium',
