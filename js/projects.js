@@ -38,6 +38,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'RTS']
   },
   {
+    name: 'Battleships 3D',
+    slug: 'battleships_3d',
+    icon: 'fa-ship',
+    url: 'https://sburrell23.github.io/Battleships-3D/',
+    repo: 'https://github.com/SBurrell23/Battleships-3D',
+    desc: 'Classic Battleship rebuilt as a single 3D naval theatre. Call your shots against a rival peer-to-peer, or take on the AI when there is nobody around to sink.',
+    tags: ['Three.js', '3D', 'Board Game']
+  },
+  {
     name: 'Dungeon RPG',
     slug: 'dungeon_rpg',
     icon: 'fa-dungeon',
@@ -56,15 +65,6 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Word Game']
   },
   {
-    name: 'Crazee-quarium',
-    slug: 'crazee_quarium',
-    icon: 'fa-water',
-    url: 'https://sburrell23.github.io/Crazee-quarium/',
-    repo: 'https://github.com/SBurrell23/Crazee-quarium',
-    desc: 'An aquarium survival game in the spirit of Insaniquarium. Feed the fish, scoop the coins, fend off aliens, and hatch pets — every sprite and sound drawn at runtime.',
-    tags: ['JavaScript', 'Canvas', 'Survival']
-  },
-  {
     name: 'Murder In Broomfield',
     slug: 'murder_in_broomfield',
     icon: 'fa-fingerprint',
@@ -72,6 +72,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/Murder-In-Broomfield',
     desc: 'A peer-to-peer social deduction game for 4-6 detectives. One of you did it, one of you knows, and the evidence does not lie — but everyone else might.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Social Deduction']
+  },
+  {
+    name: 'Crazee-quarium',
+    slug: 'crazee_quarium',
+    icon: 'fa-water',
+    url: 'https://sburrell23.github.io/Crazee-quarium/',
+    repo: 'https://github.com/SBurrell23/Crazee-quarium',
+    desc: 'An aquarium survival game in the spirit of Insaniquarium. Feed the fish, scoop the coins, fend off aliens, and hatch pets — every sprite and sound drawn at runtime.',
+    tags: ['JavaScript', 'Canvas', 'Survival']
   },
   {
     name: 'Suspect',
