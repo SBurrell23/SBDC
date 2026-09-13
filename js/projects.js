@@ -74,6 +74,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Social Deduction']
   },
   {
+    name: 'Maze Runners',
+    slug: 'maze_runners',
+    icon: 'fa-eye',
+    url: 'https://sburrell23.github.io/Maze-Runners/',
+    repo: 'https://github.com/SBurrell23/Maze-Runners',
+    desc: 'A peer-to-peer 3D hedge maze race for up to six floating eyeballs. Absurdly tall hedges, one exit, and a solo run for when nobody else is around.',
+    tags: ['Three.js', 'P2P Multiplayer', '3D']
+  },
+  {
     name: 'Sliding Puzzle Party',
     slug: 'sliding_puzzle_party',
     icon: 'fa-puzzle-piece',
