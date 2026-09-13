@@ -74,6 +74,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Social Deduction']
   },
   {
+    name: 'Suspect',
+    slug: 'suspect',
+    icon: 'fa-mask',
+    url: 'https://sburrell23.github.io/Suspect/',
+    repo: 'https://github.com/SBurrell23/Suspect',
+    desc: 'Browser-based 3D social deduction with proximity voice chat — you hear whoever is standing near you. All peer-to-peer over WebRTC, with no servers and no assets behind it.',
+    tags: ['JavaScript', 'Proximity Voice', 'Social Deduction']
+  },
+  {
     name: 'Maze Runners',
     slug: 'maze_runners',
     icon: 'fa-eye',
