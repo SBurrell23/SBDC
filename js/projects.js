@@ -16,7 +16,7 @@ window.PROJECTS = [
     icon: 'fa-paw',
     url: 'https://sburrell23.github.io/Colorado/',
     repo: 'https://github.com/SBurrell23/Colorado',
-    desc: 'A 3D peer-to-peer tile-laying game set in the Colorado Rockies — the rules of Cascadia, rethemed. Build habitat corridors, settle the wildlife that belongs in them, and score the high country.',
+    desc: 'A 3D peer-to-peer tile-laying game set in the Colorado Rockies. Build habitat corridors, settle the wildlife that belongs in them, and score the high country.',
     tags: ['Three.js', 'Board Game', 'Tile-Laying']
   },
   {
