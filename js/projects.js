@@ -38,6 +38,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'Roguelite', 'Turn-Based']
   },
   {
+    name: 'Doubloons',
+    slug: 'doubloons',
+    icon: 'fa-gem',
+    url: 'https://sburrell23.github.io/Doubloons/',
+    repo: 'https://github.com/SBurrell23/Doubloons',
+    desc: 'A pirate gem-trading game for 2-4 captains. Haggle over the hoard peer-to-peer with friends, or sail against the crew on your own. Everything generated at runtime.',
+    tags: ['Three.js', 'P2P Multiplayer', 'Trading']
+  },
+  {
     name: 'Bridge To Eternity',
     slug: 'bridge_to_eternity',
     icon: 'fa-archway',
