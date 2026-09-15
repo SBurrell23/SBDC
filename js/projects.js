@@ -20,11 +20,11 @@ window.PROJECTS = [
     tags: ['Three.js', 'Board Game', 'Tile-Laying']
   },
   {
-    name: 'Cave Typer',
-    slug: 'cave_typer',
+    name: 'Containment Breach',
+    slug: 'containment_breach',
     icon: 'fa-spider',
-    url: 'https://sburrell23.github.io/Cave-Typer/',
-    repo: 'https://github.com/SBurrell23/Cave-Typer',
+    url: 'https://sburrell23.github.io/Containment-Breach/',
+    repo: 'https://github.com/SBurrell23/Containment-Breach',
     desc: 'A procedural typing rail-shooter. The specimens got out of the vivarium — type the word hanging over a monster to shoot it, solo or in peer-to-peer co-op. Every asset is generated in code.',
     tags: ['Three.js', 'P2P Co-op', 'Typing']
   },
