@@ -20,13 +20,13 @@ window.PROJECTS = [
     tags: ['Three.js', 'Board Game', 'Tile-Laying']
   },
   {
-    name: 'Dropple',
-    slug: 'dropple',
-    icon: 'fa-magic',
-    url: 'https://sburrell23.github.io/Dropple/',
-    repo: 'https://github.com/SBurrell23/Dropple',
-    desc: 'Peggle, but high fantasy. Drop the ball, ricochet it through a field of pegs, and pop the board clear with spells.',
-    tags: ['JavaScript', 'Physics Sim', 'Arcade']
+    name: 'Cave Typer',
+    slug: 'cave_typer',
+    icon: 'fa-spider',
+    url: 'https://sburrell23.github.io/Cave-Typer/',
+    repo: 'https://github.com/SBurrell23/Cave-Typer',
+    desc: 'A procedural typing rail-shooter. The specimens got out of the vivarium — type the word hanging over a monster to shoot it, solo or in peer-to-peer co-op. Every asset is generated in code.',
+    tags: ['Three.js', 'P2P Co-op', 'Typing']
   },
   {
     name: 'Deep Jungle',
@@ -90,6 +90,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/Murder-In-Broomfield',
     desc: 'A peer-to-peer social deduction game for 4-6 detectives. One of you did it, one of you knows, and the evidence does not lie — but everyone else might.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Social Deduction']
+  },
+  {
+    name: 'Dropple',
+    slug: 'dropple',
+    icon: 'fa-magic',
+    url: 'https://sburrell23.github.io/Dropple/',
+    repo: 'https://github.com/SBurrell23/Dropple',
+    desc: 'Peggle, but high fantasy. Drop the ball, ricochet it through a field of pegs, and pop the board clear with spells.',
+    tags: ['JavaScript', 'Physics Sim', 'Arcade']
   },
   {
     name: 'Swordcraft',
