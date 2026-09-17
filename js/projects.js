@@ -2,9 +2,9 @@
    Order here is the order shown on the page. */
 window.PROJECTS = [
   {
-    name: 'Sheets',
+    name: 'Music Sheets',
     slug: 'sheets',
-    icon: 'fa-file-audio',
+    icon: 'fa-music',
     url: 'https://sburrell23.github.io/Sheets/',
     repo: 'https://github.com/SBurrell23/Sheets',
     desc: 'A browsable library of beginner-to-intermediate piano lead sheets with a player built in. Change the key, set the tempo, hear it back, then print a clean PDF. The sheets themselves come out of a spec-driven pipeline.',
@@ -94,7 +94,7 @@ window.PROJECTS = [
   {
     name: 'Lead Sheet Generator',
     slug: 'lead_sheet_generator',
-    icon: 'fa-music',
+    icon: 'fa-file-audio',
     url: 'https://sburrell23.github.io/LSG/',
     repo: 'https://github.com/SBurrell23/LSG',
     desc: 'Procedurally generated one-page piano lead sheets. Dial in a difficulty, get a fresh tune with chords and melody, hear it played back, then print it and go.',
