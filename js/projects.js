@@ -2,13 +2,13 @@
    Order here is the order shown on the page. */
 window.PROJECTS = [
   {
-    name: 'Lead Sheet Generator',
-    slug: 'lead_sheet_generator',
-    icon: 'fa-music',
-    url: 'https://sburrell23.github.io/LSG/',
-    repo: 'https://github.com/SBurrell23/LSG',
-    desc: 'Procedurally generated one-page piano lead sheets. Dial in a difficulty, get a fresh tune with chords and melody, hear it played back, then print it and go.',
-    tags: ['JavaScript', 'Music Tool', 'Generative']
+    name: 'Sheets',
+    slug: 'sheets',
+    icon: 'fa-file-audio',
+    url: 'https://sburrell23.github.io/Sheets/',
+    repo: 'https://github.com/SBurrell23/Sheets',
+    desc: 'A browsable library of beginner-to-intermediate piano lead sheets with a player built in. Change the key, set the tempo, hear it back, then print a clean PDF. The sheets themselves come out of a spec-driven pipeline.',
+    tags: ['JavaScript', 'Music Tool', 'Sheet Music']
   },
   {
     name: 'Colorado',
@@ -90,6 +90,15 @@ window.PROJECTS = [
     repo: 'https://github.com/SBurrell23/Murder-In-Broomfield',
     desc: 'A peer-to-peer social deduction game for 4-6 detectives. One of you did it, one of you knows, and the evidence does not lie — but everyone else might.',
     tags: ['JavaScript', 'P2P Multiplayer', 'Social Deduction']
+  },
+  {
+    name: 'Lead Sheet Generator',
+    slug: 'lead_sheet_generator',
+    icon: 'fa-music',
+    url: 'https://sburrell23.github.io/LSG/',
+    repo: 'https://github.com/SBurrell23/LSG',
+    desc: 'Procedurally generated one-page piano lead sheets. Dial in a difficulty, get a fresh tune with chords and melody, hear it played back, then print it and go.',
+    tags: ['JavaScript', 'Music Tool', 'Generative']
   },
   {
     name: 'Dropple',
