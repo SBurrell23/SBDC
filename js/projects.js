@@ -2,6 +2,15 @@
    Order here is the order shown on the page. */
 window.PROJECTS = [
   {
+    name: 'Pickleball',
+    slug: 'pickleball',
+    icon: 'fa-table-tennis',
+    url: 'https://sburrell23.github.io/Pickleball/',
+    repo: 'https://github.com/SBurrell23/Pickleball',
+    desc: 'Arcade pickleball for two or four players, with the bounce and spin tuned for rallies rather than realism. Grab a paddle and play peer-to-peer in the browser. Three.js, with every asset and sound generated in code.',
+    tags: ['Three.js', 'P2P Multiplayer', 'Sports']
+  },
+  {
     name: 'Music Sheets',
     slug: 'sheets',
     icon: 'fa-music',
