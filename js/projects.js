@@ -101,6 +101,15 @@ window.PROJECTS = [
     tags: ['JavaScript', 'P2P Multiplayer', 'Social Deduction']
   },
   {
+    name: 'Watch World',
+    slug: 'watch_world',
+    icon: 'fa-clock',
+    url: 'https://sburrell23.github.io/Watch-World/',
+    repo: 'https://github.com/SBurrell23/Watch-World',
+    desc: 'An illustrated atlas of horology, from Casio to Patek Philippe. Dig through the houses and their iconic models — histories, owners, prices, maps and timelines — or let the finder narrow the field to the watch you are actually after.',
+    tags: ['JavaScript', 'Reference', 'Visualization']
+  },
+  {
     name: 'Lead Sheet Generator',
     slug: 'lead_sheet_generator',
     icon: 'fa-file-audio',
