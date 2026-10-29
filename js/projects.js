@@ -110,6 +110,14 @@ window.PROJECTS = [
     tags: ['JavaScript', 'Reference', 'Visualization']
   },
   {
+    name: 'Halloween Movielist',
+    slug: 'halloween_movielist',
+    icon: 'fa-film',
+    url: 'https://halloweenmovielist.com/',
+    desc: 'Every October 20th my crew sits down and ranks the Halloween canon. Shared schedule, watchlist, ratings out of ten, and the running statistics that settle the argument. Invite-only, so you will need a code from me.',
+    tags: ['JavaScript', 'Custom Domain', 'Invite-Only']
+  },
+  {
     name: 'Lead Sheet Generator',
     slug: 'lead_sheet_generator',
     icon: 'fa-file-audio',

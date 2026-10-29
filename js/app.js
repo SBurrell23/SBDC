@@ -19,7 +19,7 @@
       // The whole card is the link, so it holds no interactive children.
       return '' +
         '<a class="proj" href="' + p.url + '" target="_blank" rel="noopener"' +
-          ' aria-label="Play ' + p.name + '">' +
+          ' aria-label="Open ' + p.name + '">' +
           '<span class="proj-bar">' +
             '<span class="proj-path">~/projects/<b>' + p.slug + '</b></span>' +
             '<span class="proj-idx">' + idx + '</span>' +
@@ -218,6 +218,7 @@
 
   /* --------------------------------------------------------- role typing -- */
   var ROLES = [
+    'software architect',
     'agentic developer',
     'full stack developer',
     'product engineer',
@@ -303,6 +304,10 @@
 
     var yr = document.getElementById('year');
     if (yr) yr.textContent = new Date().getFullYear();
+
+    // portfolio.json quotes the catalog size; read it rather than hardcode it.
+    var pf = document.getElementById('pfCount');
+    if (pf) pf.textContent = (window.PROJECTS || []).length;
   }
 
   if (document.readyState === 'loading') {
