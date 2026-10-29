@@ -148,7 +148,12 @@
   /* ------------------------------------------------------ contact links -- */
   /* Contact details are kept out of the markup so a crawler scraping the raw
      HTML finds no address or profile URL to harvest. Each .lk carries the
-     value reversed then base64'd; hrefs are assembled here at runtime. */
+     value reversed then base64'd; hrefs are assembled here at runtime.
+
+     The address goes a step further than the profile links: nothing is
+     decoded until a real click, so a scraper that executes the page's JS
+     still finds no mailto and no address anywhere in the DOM. Anchors
+     carrying data-ph show that placeholder until someone reveals them. */
   function deob(v) {
     try {
       return atob(v).split('').reverse().join('');
@@ -157,18 +162,71 @@
     }
   }
 
-  function wireLinks() {
-    document.querySelectorAll('a.lk').forEach(function (a) {
+  function strip(a) {
+    delete a.dataset.x;
+    delete a.dataset.t;
+    delete a.dataset.as;
+    delete a.dataset.ph;
+  }
+
+  function wireMail(a) {
+    var ph = a.dataset.ph;
+
+    if (ph) {
+      // Looks and behaves like a button until it holds a real address.
+      a.textContent = ph;
+      a.classList.add('lk-veil');
+      a.setAttribute('role', 'button');
+      a.setAttribute('tabindex', '0');
+      a.setAttribute('aria-label', 'Reveal email address');
+    }
+
+    function reveal(e) {
+      if (e) e.preventDefault();
+
       var val = deob(a.dataset.x);
       if (!val) return;
 
-      a.href = a.dataset.as === 'mail' ? 'mailto:' + val : val;
+      a.href = 'mailto:' + val;
       if (a.dataset.t) a.textContent = deob(a.dataset.t);
+      strip(a);
 
-      // strip the payload once it has been used
-      delete a.dataset.x;
-      delete a.dataset.t;
-      delete a.dataset.as;
+      a.removeEventListener('click', reveal);
+      a.removeEventListener('keydown', onKey);
+
+      if (ph) {
+        a.classList.remove('lk-veil');
+        a.removeAttribute('role');
+        a.removeAttribute('tabindex');
+        a.setAttribute('aria-label', 'Email ' + val);
+      } else {
+        // These never showed a placeholder, so the click was meant for the
+        // mail client -- honour it now that the href exists.
+        window.location.href = a.href;
+      }
+    }
+
+    function onKey(e) {
+      if (e.key === 'Enter' || e.key === ' ') reveal(e);
+    }
+
+    a.addEventListener('click', reveal);
+    a.addEventListener('keydown', onKey);
+  }
+
+  function wireLinks() {
+    document.querySelectorAll('a.lk').forEach(function (a) {
+      if (!a.dataset.x) return;
+
+      if (a.dataset.as === 'mail') {
+        wireMail(a);
+        return;
+      }
+
+      // Profile links carry nothing worth gating behind a click.
+      a.href = deob(a.dataset.x);
+      if (a.dataset.t) a.textContent = deob(a.dataset.t);
+      strip(a);
     });
   }
 

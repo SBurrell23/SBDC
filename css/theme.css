@@ -56,6 +56,24 @@ h1, h2, h3, h4, h5, p, ul, ol, figure { margin: 0; padding: 0; }
 ul, ol { list-style: none; }
 a { color: var(--green); text-decoration: none; }
 a:hover { color: var(--text-strong); }
+
+/* click-to-reveal email: dimmed and dotted until a real click decodes it,
+   so the address is never in the DOM for a JS-executing scraper to read */
+.lk-veil {
+  color: var(--green-dim);
+  cursor: pointer;
+  border-bottom: 1px dotted var(--green-dim);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.lk-veil:hover,
+.lk-veil:focus-visible {
+  color: var(--green);
+  border-color: var(--green);
+  outline: none;
+}
+.pf-json .lk-veil { color: var(--amber); border-bottom-color: var(--amber); opacity: 0.6; }
+.pf-json .lk-veil:hover,
+.pf-json .lk-veil:focus-visible { opacity: 1; }
 img { max-width: 100%; display: block; }
 button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
 
